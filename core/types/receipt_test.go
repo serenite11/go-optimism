@@ -25,11 +25,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/holiman/uint256"
 	"github.com/kylelemons/godebug/diff"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/op-geth/rlp"
 	"github.com/stretchr/testify/require"
 )
 

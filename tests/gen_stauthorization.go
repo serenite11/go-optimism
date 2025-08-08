@@ -7,8 +7,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/common/math"
 )
 
 var _ = (*stAuthorizationMarshaling)(nil)

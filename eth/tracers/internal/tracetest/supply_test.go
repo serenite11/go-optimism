@@ -27,20 +27,20 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/consensus/beacon"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/common/hexutil"
+	"github.com/serenite11/op-geth/consensus/beacon"
+	"github.com/serenite11/op-geth/consensus/ethash"
+	"github.com/serenite11/op-geth/core"
+	"github.com/serenite11/op-geth/core/rawdb"
+	"github.com/serenite11/op-geth/core/types"
+	"github.com/serenite11/op-geth/core/vm"
+	"github.com/serenite11/op-geth/crypto"
+	"github.com/serenite11/op-geth/eth/tracers"
+	"github.com/serenite11/op-geth/params"
 
 	// Force-load live packages, to trigger registration
-	_ "github.com/ethereum/go-ethereum/eth/tracers/live"
+	_ "github.com/serenite11/op-geth/eth/tracers/live"
 )
 
 type supplyInfoIssuance struct {

@@ -24,12 +24,12 @@ import (
 	"slices"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/filtermaps"
-	"github.com/ethereum/go-ethereum/core/history"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/core/filtermaps"
+	"github.com/serenite11/op-geth/core/history"
+	"github.com/serenite11/op-geth/core/types"
+	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/op-geth/rpc"
 )
 
 // Filter can be used to retrieve and filter logs.

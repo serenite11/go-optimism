@@ -23,8 +23,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/serenite11/op-geth/core/types"
+	"github.com/serenite11/op-geth/params"
 )
 
 func TestCalcExcessBlobGas(t *testing.T) {

@@ -20,9 +20,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/core/types"
+	"github.com/serenite11/op-geth/params"
 )
 
 // copyConfig does a _shallow_ copy of a given config. Safe to set new values, but

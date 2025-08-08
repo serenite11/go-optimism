@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/core/vm"
+	"github.com/serenite11/op-geth/params"
 )
 
 func TestEnsureCreate2Deployer(t *testing.T) {

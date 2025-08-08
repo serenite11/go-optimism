@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/serenite11/op-geth/accounts/abi"
+	"github.com/serenite11/op-geth/crypto"
 )
 
 type bindV2Test struct {

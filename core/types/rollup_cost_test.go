@@ -10,8 +10,8 @@ import (
 	"github.com/holiman/uint256"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/params"
 )
 
 var (

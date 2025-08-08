@@ -22,15 +22,15 @@ import (
 	"slices"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/common/lru"
+	"github.com/serenite11/op-geth/core"
+	"github.com/serenite11/op-geth/core/state"
+	"github.com/serenite11/op-geth/core/types"
+	"github.com/serenite11/op-geth/event"
+	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/op-geth/rpc"
 )
 
 const sampleNumber = 3 // Number of transactions sampled in a block

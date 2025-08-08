@@ -21,9 +21,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/vm"
 	"github.com/holiman/uint256"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/core/vm"
 )
 
 func TestPush(t *testing.T) {

@@ -21,16 +21,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/beacon"
-	"github.com/ethereum/go-ethereum/consensus/clique"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/consensus"
+	"github.com/serenite11/op-geth/consensus/beacon"
+	"github.com/serenite11/op-geth/consensus/clique"
+	"github.com/serenite11/op-geth/consensus/ethash"
+	"github.com/serenite11/op-geth/core/rawdb"
+	"github.com/serenite11/op-geth/core/types"
+	"github.com/serenite11/op-geth/core/vm"
+	"github.com/serenite11/op-geth/crypto"
+	"github.com/serenite11/op-geth/params"
 )
 
 // Tests that simple header verification works, for both good and bad blocks.

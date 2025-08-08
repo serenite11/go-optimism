@@ -21,9 +21,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/ethdb"
+	"github.com/serenite11/op-geth/log"
 )
 
 // Prove constructs a merkle proof for key. The result contains all encoded nodes

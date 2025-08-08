@@ -6,9 +6,9 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/types/interoptypes"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/core/types"
+	"github.com/serenite11/op-geth/core/types/interoptypes"
 )
 
 // IngressFilter is an interface that allows filtering of transactions before they are added to the transaction pool.

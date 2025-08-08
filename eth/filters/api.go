@@ -25,13 +25,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/history"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/serenite11/op-geth"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/common/hexutil"
+	"github.com/serenite11/op-geth/core/history"
+	"github.com/serenite11/op-geth/core/types"
+	"github.com/serenite11/op-geth/internal/ethapi"
+	"github.com/serenite11/op-geth/rpc"
 )
 
 var (

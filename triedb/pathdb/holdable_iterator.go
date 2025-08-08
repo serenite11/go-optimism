@@ -17,8 +17,8 @@
 package pathdb
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/ethdb"
 )
 
 // holdableIterator is a wrapper of underlying database iterator. It extends

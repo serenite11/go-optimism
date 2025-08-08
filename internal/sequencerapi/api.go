@@ -6,13 +6,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/common/hexutil"
+	"github.com/serenite11/op-geth/core/types"
+	"github.com/serenite11/op-geth/internal/ethapi"
+	"github.com/serenite11/op-geth/metrics"
+	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/op-geth/rpc"
 	"golang.org/x/time/rate"
 )
 

@@ -29,17 +29,17 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/gofrs/flock"
+	"github.com/serenite11/op-geth/accounts"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/common/hexutil"
+	"github.com/serenite11/op-geth/core/rawdb"
+	"github.com/serenite11/op-geth/ethdb"
+	"github.com/serenite11/op-geth/ethdb/memorydb"
+	"github.com/serenite11/op-geth/event"
+	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/op-geth/p2p"
+	"github.com/serenite11/op-geth/rpc"
 )
 
 // Node is a container on which services can be registered.

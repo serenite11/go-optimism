@@ -26,14 +26,14 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/consensus/ethash"
+	"github.com/serenite11/op-geth/core"
+	"github.com/serenite11/op-geth/core/rawdb"
+	"github.com/serenite11/op-geth/core/types"
+	"github.com/serenite11/op-geth/ethdb"
+	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/op-geth/rlp"
 )
 
 var testParams = Params{

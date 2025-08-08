@@ -21,11 +21,11 @@ import (
 	"math/big"
 	"slices"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/common/hexutil"
+	"github.com/serenite11/op-geth/core/types"
+	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/op-geth/trie"
 )
 
 // PayloadVersion denotes the version of PayloadAttributes used to request the

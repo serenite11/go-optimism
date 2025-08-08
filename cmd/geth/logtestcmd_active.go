@@ -25,9 +25,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
 	"github.com/holiman/uint256"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/log"
 	"github.com/urfave/cli/v2"
 )
 

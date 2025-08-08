@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/consensus"
+	"github.com/serenite11/op-geth/core/state"
+	"github.com/serenite11/op-geth/core/types"
+	"github.com/serenite11/op-geth/core/vm"
+	"github.com/serenite11/op-geth/rpc"
 )
 
 type OpLegacy struct{}

@@ -23,13 +23,13 @@ import (
 	"slices"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie/trienode"
 	"github.com/holiman/uint256"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/core/types"
+	"github.com/serenite11/op-geth/crypto"
+	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/op-geth/rlp"
+	"github.com/serenite11/op-geth/trie/trienode"
 )
 
 type Storage map[common.Hash]common.Hash

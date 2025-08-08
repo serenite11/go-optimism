@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/serenite11/op-geth/common"
 )
 
 // Legacy sync progress definitions

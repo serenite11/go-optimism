@@ -23,17 +23,17 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ethereum/go-ethereum/cmd/evm/internal/t8ntool"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/internal/flags"
+	"github.com/serenite11/op-geth/cmd/evm/internal/t8ntool"
+	"github.com/serenite11/op-geth/core/state"
+	"github.com/serenite11/op-geth/core/tracing"
+	"github.com/serenite11/op-geth/eth/tracers/logger"
+	"github.com/serenite11/op-geth/internal/debug"
+	"github.com/serenite11/op-geth/internal/flags"
 	"github.com/urfave/cli/v2"
 
 	// Force-load the tracer engines to trigger registration
-	_ "github.com/ethereum/go-ethereum/eth/tracers/js"
-	_ "github.com/ethereum/go-ethereum/eth/tracers/native"
+	_ "github.com/serenite11/op-geth/eth/tracers/js"
+	_ "github.com/serenite11/op-geth/eth/tracers/native"
 )
 
 // Some other nice-to-haves:

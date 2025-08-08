@@ -26,14 +26,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/v4test"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/serenite11/op-geth/cmd/devp2p/internal/v4test"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/crypto"
+	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/op-geth/p2p/discover"
+	"github.com/serenite11/op-geth/p2p/enode"
+	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/op-geth/rpc"
 	"github.com/urfave/cli/v2"
 )
 

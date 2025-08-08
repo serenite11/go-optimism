@@ -20,7 +20,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/serenite11/op-geth/rlp"
 )
 
 func TestReadWriteFreezerTableMeta(t *testing.T) {

@@ -22,13 +22,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/beacon/engine"
-	"github.com/ethereum/go-ethereum/beacon/params"
-	"github.com/ethereum/go-ethereum/beacon/types"
-	"github.com/ethereum/go-ethereum/common"
-	ctypes "github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/serenite11/op-geth/beacon/engine"
+	"github.com/serenite11/op-geth/beacon/params"
+	"github.com/serenite11/op-geth/beacon/types"
+	"github.com/serenite11/op-geth/common"
+	ctypes "github.com/serenite11/op-geth/core/types"
+	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/op-geth/rpc"
 )
 
 type engineClient struct {

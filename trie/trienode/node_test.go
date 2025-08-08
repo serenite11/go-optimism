@@ -20,8 +20,8 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/crypto"
 )
 
 func BenchmarkMerge(b *testing.B) {

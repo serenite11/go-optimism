@@ -25,11 +25,11 @@ import (
 	"slices"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/core/rawdb"
+	"github.com/serenite11/op-geth/crypto"
+	"github.com/serenite11/op-geth/ethdb"
+	"github.com/serenite11/op-geth/log"
 )
 
 // State history records the state changes involved in executing a block. The

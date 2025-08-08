@@ -30,8 +30,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/rlp"
 )
 
 var (

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"path"
 
-	"github.com/ethereum/go-ethereum/common"
 	"github.com/naoina/toml"
+	"github.com/serenite11/op-geth/common"
 )
 
 type Superchain struct {

@@ -21,10 +21,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/serenite11/op-geth"
+	"github.com/serenite11/op-geth/core"
+	"github.com/serenite11/op-geth/event"
+	"github.com/serenite11/op-geth/rpc"
 )
 
 // DownloaderAPI provides an API which gives information about the current

@@ -3,11 +3,11 @@ package misc
 import (
 	_ "embed"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/core/vm"
+	"github.com/serenite11/op-geth/crypto"
+	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/op-geth/params"
 )
 
 // The original create2deployer contract could not be deployed to Base mainnet at

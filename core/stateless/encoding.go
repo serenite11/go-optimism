@@ -19,10 +19,10 @@ package stateless
 import (
 	"io"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/serenite11/op-geth/common/hexutil"
+	"github.com/serenite11/op-geth/core/types"
+	"github.com/serenite11/op-geth/crypto"
+	"github.com/serenite11/op-geth/rlp"
 )
 
 // toExtWitness converts our internal witness representation to the consensus one.

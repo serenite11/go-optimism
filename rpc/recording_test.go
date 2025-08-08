@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum/go-ethereum/internal/testlog"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/serenite11/op-geth/internal/testlog"
+	"github.com/serenite11/op-geth/log"
 )
 
 type testRecorder struct {

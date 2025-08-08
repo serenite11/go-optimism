@@ -22,13 +22,13 @@ import (
 	"os"
 	"slices"
 
-	"github.com/ethereum/go-ethereum/beacon/blsync"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/serenite11/op-geth/beacon/blsync"
+	"github.com/serenite11/op-geth/cmd/utils"
+	"github.com/serenite11/op-geth/internal/debug"
+	"github.com/serenite11/op-geth/internal/flags"
+	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/op-geth/node"
+	"github.com/serenite11/op-geth/rpc"
 	"github.com/urfave/cli/v2"
 )
 

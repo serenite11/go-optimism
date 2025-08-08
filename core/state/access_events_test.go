@@ -19,9 +19,9 @@ package state
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie/utils"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/op-geth/trie/utils"
 )
 
 var (

@@ -8,10 +8,10 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind/v2"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/serenite11/op-geth/accounts/abi"
+	"github.com/serenite11/op-geth/accounts/abi/bind/v2"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/core/types"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

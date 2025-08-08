@@ -20,11 +20,11 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/core/tracing"
+	"github.com/serenite11/op-geth/core/types"
+	"github.com/serenite11/op-geth/eth/tracers"
+	"github.com/serenite11/op-geth/params"
 )
 
 func init() {

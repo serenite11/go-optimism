@@ -21,8 +21,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/log"
 )
 
 const (

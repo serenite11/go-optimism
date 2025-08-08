@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/serenite11/op-geth/common"
 )
 
 func TestEOFMarshaling(t *testing.T) {

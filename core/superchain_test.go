@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/superchain"
-	"github.com/ethereum/go-ethereum/triedb"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/core/rawdb"
+	"github.com/serenite11/op-geth/superchain"
+	"github.com/serenite11/op-geth/triedb"
 )
 
 func TestOPStackGenesis(t *testing.T) {

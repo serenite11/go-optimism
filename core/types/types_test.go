@@ -20,9 +20,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/crypto"
+	"github.com/serenite11/op-geth/rlp"
 )
 
 type devnull struct{ len int }

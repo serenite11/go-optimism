@@ -20,9 +20,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/core/txpool"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/serenite11/op-geth/core/txpool"
+	"github.com/serenite11/op-geth/core/types"
+	"github.com/serenite11/op-geth/log"
 )
 
 // A PoolJournaler periodically journales a transaction pool to disk.

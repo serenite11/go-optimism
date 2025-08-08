@@ -26,8 +26,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/serenite11/op-geth/core/vm"
+	"github.com/serenite11/op-geth/log"
 	"github.com/urfave/cli/v2"
 )
 

@@ -41,7 +41,7 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/serenite11/op-geth/crypto"
 )
 
 var (

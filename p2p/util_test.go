@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
+	"github.com/serenite11/op-geth/common/mclock"
 )
 
 func TestExpHeap(t *testing.T) {

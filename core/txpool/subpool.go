@@ -20,12 +20,12 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto/kzg4844"
-	"github.com/ethereum/go-ethereum/event"
 	"github.com/holiman/uint256"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/core"
+	"github.com/serenite11/op-geth/core/types"
+	"github.com/serenite11/op-geth/crypto/kzg4844"
+	"github.com/serenite11/op-geth/event"
 )
 
 // LazyTransaction contains a small subset of the transaction properties that is

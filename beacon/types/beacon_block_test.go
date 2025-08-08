@@ -21,7 +21,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/serenite11/op-geth/common"
 )
 
 func TestBlockFromJSON(t *testing.T) {

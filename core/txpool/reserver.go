@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/op-geth/metrics"
 )
 
 var (

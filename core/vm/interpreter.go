@@ -19,13 +19,13 @@ package vm
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
 	"github.com/holiman/uint256"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/common/math"
+	"github.com/serenite11/op-geth/core/tracing"
+	"github.com/serenite11/op-geth/crypto"
+	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/op-geth/params"
 )
 
 // PrecompileOverrides is a function that can be used to override the default precompiled contracts

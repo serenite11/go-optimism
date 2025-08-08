@@ -23,9 +23,9 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/p2p"
+	"github.com/serenite11/op-geth/p2p/enode"
 )
 
 // testPeer is a simulated peer to allow testing direct network calls.

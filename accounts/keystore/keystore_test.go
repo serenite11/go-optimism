@@ -27,10 +27,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/event"
+	"github.com/serenite11/op-geth/accounts"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/crypto"
+	"github.com/serenite11/op-geth/event"
 )
 
 var testSigData = make([]byte, 32)

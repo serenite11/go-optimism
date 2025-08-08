@@ -20,15 +20,15 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/txpool"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/core"
+	"github.com/serenite11/op-geth/core/txpool"
+	"github.com/serenite11/op-geth/core/types"
+	"github.com/serenite11/op-geth/metrics"
+	"github.com/serenite11/op-geth/p2p"
+	"github.com/serenite11/op-geth/p2p/enode"
+	"github.com/serenite11/op-geth/p2p/enr"
+	"github.com/serenite11/op-geth/params"
 )
 
 const (

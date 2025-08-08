@@ -29,13 +29,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/internal/testlog"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover/v4wire"
-	"github.com/ethereum/go-ethereum/p2p/discover/v5wire"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/serenite11/op-geth/internal/testlog"
+	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/op-geth/p2p/discover/v4wire"
+	"github.com/serenite11/op-geth/p2p/discover/v5wire"
+	"github.com/serenite11/op-geth/p2p/enode"
+	"github.com/serenite11/op-geth/p2p/enr"
+	"github.com/serenite11/op-geth/rlp"
 	"github.com/stretchr/testify/require"
 )
 

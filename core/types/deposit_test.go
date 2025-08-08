@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/serenite11/op-geth/accounts/abi"
+	"github.com/serenite11/op-geth/common"
 	"github.com/stretchr/testify/require"
 )
 

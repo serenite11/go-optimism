@@ -27,14 +27,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/internal/era"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/core/types"
+	"github.com/serenite11/op-geth/eth"
+	"github.com/serenite11/op-geth/internal/era"
+	"github.com/serenite11/op-geth/internal/ethapi"
+	"github.com/serenite11/op-geth/internal/flags"
+	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/op-geth/trie"
 	"github.com/urfave/cli/v2"
 )
 

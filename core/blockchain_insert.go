@@ -19,10 +19,10 @@ package core
 import (
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/common/mclock"
+	"github.com/serenite11/op-geth/core/types"
+	"github.com/serenite11/op-geth/log"
 )
 
 // insertStats tracks and reports on block insertion.

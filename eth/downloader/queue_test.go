@@ -26,13 +26,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/op-geth/consensus/ethash"
+	"github.com/serenite11/op-geth/core"
+	"github.com/serenite11/op-geth/core/types"
+	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/op-geth/trie"
 )
 
 // makeChain creates a chain of n blocks starting at and including parent.
