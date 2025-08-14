@@ -30,22 +30,22 @@ import (
 	"time"
 
 	"github.com/holiman/uint256"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/consensus"
-	"github.com/serenite11/op-geth/consensus/beacon"
-	"github.com/serenite11/op-geth/consensus/ethash"
-	"github.com/serenite11/op-geth/core/history"
-	"github.com/serenite11/op-geth/core/rawdb"
-	"github.com/serenite11/op-geth/core/state"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/core/vm"
-	"github.com/serenite11/op-geth/core/vm/program"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/eth/tracers/logger"
-	"github.com/serenite11/op-geth/ethdb"
-	"github.com/serenite11/op-geth/ethdb/pebble"
-	"github.com/serenite11/op-geth/params"
-	"github.com/serenite11/op-geth/trie"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/consensus"
+	"github.com/serenite11/go-optimism/consensus/beacon"
+	"github.com/serenite11/go-optimism/consensus/ethash"
+	"github.com/serenite11/go-optimism/core/history"
+	"github.com/serenite11/go-optimism/core/rawdb"
+	"github.com/serenite11/go-optimism/core/state"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/core/vm"
+	"github.com/serenite11/go-optimism/core/vm/program"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/eth/tracers/logger"
+	"github.com/serenite11/go-optimism/ethdb"
+	"github.com/serenite11/go-optimism/ethdb/pebble"
+	"github.com/serenite11/go-optimism/params"
+	"github.com/serenite11/go-optimism/trie"
 )
 
 // So we can deterministically seed different blockchains
@@ -1509,7 +1509,7 @@ func testEIP161AccountRemoval(t *testing.T, scheme string) {
 // tests that under weird reorg conditions the blockchain and its internal header-
 // chain return the same latest block/header.
 //
-// https://github.com/serenite11/op-geth/pull/15941
+// https://github.com/serenite11/go-optimism/pull/15941
 func TestBlockchainHeaderchainReorgConsistency(t *testing.T) {
 	testBlockchainHeaderchainReorgConsistency(t, rawdb.HashScheme)
 	testBlockchainHeaderchainReorgConsistency(t, rawdb.PathScheme)
@@ -1725,8 +1725,8 @@ func testBlockchainRecovery(t *testing.T, scheme string) {
 // overtake the 'canon' chain until after it's passed canon by about 200 blocks.
 //
 // Details at:
-//   - https://github.com/serenite11/op-geth/issues/18977
-//   - https://github.com/serenite11/op-geth/pull/18988
+//   - https://github.com/serenite11/go-optimism/issues/18977
+//   - https://github.com/serenite11/go-optimism/pull/18988
 func TestLowDiffLongChain(t *testing.T) {
 	testLowDiffLongChain(t, rawdb.HashScheme)
 	testLowDiffLongChain(t, rawdb.PathScheme)

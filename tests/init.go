@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/go-optimism/params"
 )
 
 func u64(val uint64) *uint64 { return &val }

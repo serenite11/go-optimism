@@ -20,12 +20,12 @@ package consensus
 import (
 	"math/big"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/state"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/core/vm"
-	"github.com/serenite11/op-geth/params"
-	"github.com/serenite11/op-geth/rpc"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/state"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/core/vm"
+	"github.com/serenite11/go-optimism/params"
+	"github.com/serenite11/go-optimism/rpc"
 )
 
 // ChainHeaderReader defines a small collection of methods needed to access the local

@@ -20,7 +20,7 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/serenite11/op-geth/core/types"
+	"github.com/serenite11/go-optimism/core/types"
 )
 
 // senderCacherOnce is used to ensure that the SenderCacher is initialized only once.

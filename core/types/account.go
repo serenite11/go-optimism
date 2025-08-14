@@ -23,9 +23,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/common/math"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/common/math"
 )
 
 //go:generate go run github.com/fjl/gencodec -type Account -field-override accountMarshaling -out gen_account.go

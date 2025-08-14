@@ -19,7 +19,7 @@ package eth
 import (
 	"math/big"
 
-	"github.com/serenite11/op-geth/common/hexutil"
+	"github.com/serenite11/go-optimism/common/hexutil"
 )
 
 // MinerAPI provides an API to control the miner.

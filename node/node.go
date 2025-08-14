@@ -30,16 +30,16 @@ import (
 	"sync"
 
 	"github.com/gofrs/flock"
-	"github.com/serenite11/op-geth/accounts"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/core/rawdb"
-	"github.com/serenite11/op-geth/ethdb"
-	"github.com/serenite11/op-geth/ethdb/memorydb"
-	"github.com/serenite11/op-geth/event"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/p2p"
-	"github.com/serenite11/op-geth/rpc"
+	"github.com/serenite11/go-optimism/accounts"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/core/rawdb"
+	"github.com/serenite11/go-optimism/ethdb"
+	"github.com/serenite11/go-optimism/ethdb/memorydb"
+	"github.com/serenite11/go-optimism/event"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/p2p"
+	"github.com/serenite11/go-optimism/rpc"
 )
 
 // Node is a container on which services can be registered.

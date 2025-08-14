@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/serenite11/op-geth/common/mclock"
+	"github.com/serenite11/go-optimism/common/mclock"
 )
 
 // Subscription represents a stream of events. The carrier of the events is typically a

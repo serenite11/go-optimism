@@ -5,10 +5,10 @@ package p2p
 import (
 	"crypto/ecdsa"
 
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/p2p/enode"
-	"github.com/serenite11/op-geth/p2p/nat"
-	"github.com/serenite11/op-geth/p2p/netutil"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/p2p/enode"
+	"github.com/serenite11/go-optimism/p2p/nat"
+	"github.com/serenite11/go-optimism/p2p/netutil"
 )
 
 var _ = (*configMarshaling)(nil)

@@ -22,9 +22,9 @@ import (
 	"testing"
 
 	"github.com/holiman/uint256"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/tracing"
-	"github.com/serenite11/op-geth/core/types"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/tracing"
+	"github.com/serenite11/go-optimism/core/types"
 )
 
 // This method tests that the 'burn' from sending-to-selfdestructed accounts

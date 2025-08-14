@@ -21,15 +21,15 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/common/prque"
-	"github.com/serenite11/op-geth/core/rawdb"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/ethdb"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/metrics"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/common/prque"
+	"github.com/serenite11/go-optimism/core/rawdb"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/ethdb"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/metrics"
 )
 
 // ErrNotRequested is returned by the trie sync when it's requested to process a

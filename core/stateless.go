@@ -17,18 +17,18 @@
 package core
 
 import (
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/lru"
-	"github.com/serenite11/op-geth/consensus/beacon"
-	"github.com/serenite11/op-geth/consensus/ethash"
-	"github.com/serenite11/op-geth/core/state"
-	"github.com/serenite11/op-geth/core/stateless"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/core/vm"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/params"
-	"github.com/serenite11/op-geth/trie"
-	"github.com/serenite11/op-geth/triedb"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/lru"
+	"github.com/serenite11/go-optimism/consensus/beacon"
+	"github.com/serenite11/go-optimism/consensus/ethash"
+	"github.com/serenite11/go-optimism/core/state"
+	"github.com/serenite11/go-optimism/core/stateless"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/core/vm"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/params"
+	"github.com/serenite11/go-optimism/trie"
+	"github.com/serenite11/go-optimism/triedb"
 )
 
 // ExecuteStateless runs a stateless execution based on a witness, verifies

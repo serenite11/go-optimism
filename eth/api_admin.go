@@ -24,9 +24,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/serenite11/op-geth/core"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/rlp"
+	"github.com/serenite11/go-optimism/core"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/rlp"
 )
 
 // AdminAPI is the collection of Ethereum full node related APIs for node

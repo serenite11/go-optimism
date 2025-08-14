@@ -20,11 +20,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/serenite11/op-geth/consensus"
-	"github.com/serenite11/op-geth/core/state"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/params"
-	"github.com/serenite11/op-geth/trie"
+	"github.com/serenite11/go-optimism/consensus"
+	"github.com/serenite11/go-optimism/core/state"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/params"
+	"github.com/serenite11/go-optimism/trie"
 )
 
 // BlockValidator is responsible for validating block headers, uncles and

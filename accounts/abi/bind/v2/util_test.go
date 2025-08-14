@@ -23,12 +23,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/serenite11/op-geth/accounts/abi/bind/v2"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/ethclient/simulated"
-	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/go-optimism/accounts/abi/bind/v2"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/ethclient/simulated"
+	"github.com/serenite11/go-optimism/params"
 )
 
 var waitDeployedTests = map[string]struct {

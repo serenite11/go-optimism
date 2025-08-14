@@ -22,14 +22,14 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core"
-	"github.com/serenite11/op-geth/core/state"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/crypto/kzg4844"
-	"github.com/serenite11/op-geth/event"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core"
+	"github.com/serenite11/go-optimism/core/state"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/crypto/kzg4844"
+	"github.com/serenite11/go-optimism/event"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/params"
 )
 
 // TxStatus is the current status of a transaction as seen by the pool.

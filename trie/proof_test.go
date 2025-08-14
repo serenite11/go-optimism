@@ -25,10 +25,10 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/rawdb"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/ethdb/memorydb"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/rawdb"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/ethdb/memorydb"
 )
 
 // Prng is a pseudo random number generator seeded by strong randomness.

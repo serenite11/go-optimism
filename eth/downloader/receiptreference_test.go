@@ -3,7 +3,7 @@ package downloader
 import (
 	"testing"
 
-	"github.com/serenite11/op-geth/core/types"
+	"github.com/serenite11/go-optimism/core/types"
 	"github.com/stretchr/testify/assert"
 )
 

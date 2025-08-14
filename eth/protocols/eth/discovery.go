@@ -17,10 +17,10 @@
 package eth
 
 import (
-	"github.com/serenite11/op-geth/core"
-	"github.com/serenite11/op-geth/core/forkid"
-	"github.com/serenite11/op-geth/p2p/enode"
-	"github.com/serenite11/op-geth/rlp"
+	"github.com/serenite11/go-optimism/core"
+	"github.com/serenite11/go-optimism/core/forkid"
+	"github.com/serenite11/go-optimism/p2p/enode"
+	"github.com/serenite11/go-optimism/rlp"
 )
 
 // enrEntry is the ENR entry which advertises `eth` protocol on the discovery.

@@ -32,8 +32,8 @@ import (
 	"time"
 
 	"github.com/rs/cors"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/rpc"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/rpc"
 )
 
 // httpConfig is the JSON-RPC/HTTP configuration.

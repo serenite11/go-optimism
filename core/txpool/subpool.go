@@ -21,11 +21,11 @@ import (
 	"time"
 
 	"github.com/holiman/uint256"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/crypto/kzg4844"
-	"github.com/serenite11/op-geth/event"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/crypto/kzg4844"
+	"github.com/serenite11/go-optimism/event"
 )
 
 // LazyTransaction contains a small subset of the transaction properties that is

@@ -21,10 +21,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/serenite11/op-geth/beacon/params"
-	"github.com/serenite11/op-geth/beacon/types"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/beacon/params"
+	"github.com/serenite11/go-optimism/beacon/types"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/log"
 )
 
 // HeadTracker keeps track of the latest validated head and the "prefetch" head

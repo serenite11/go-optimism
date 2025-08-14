@@ -6,8 +6,8 @@ import (
 
 	influxdb2 "github.com/influxdata/influxdb-client-go/v2"
 	"github.com/influxdata/influxdb-client-go/v2/api"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/metrics"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/metrics"
 )
 
 type v2Reporter struct {

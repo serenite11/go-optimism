@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/go-optimism/common"
 )
 
 func TestMemoryCopy(t *testing.T) {

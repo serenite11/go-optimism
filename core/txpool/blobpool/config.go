@@ -17,7 +17,7 @@
 package blobpool
 
 import (
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/log"
 )
 
 // Config are the configuration parameters of the blob transaction pool.

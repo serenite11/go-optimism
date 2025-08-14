@@ -21,12 +21,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/rlp"
-	"github.com/serenite11/op-geth/trie"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/rlp"
+	"github.com/serenite11/go-optimism/trie"
 )
 
 func handleGetBlockHeaders(backend Backend, msg Decoder, peer *Peer) error {

@@ -24,8 +24,8 @@ import (
 	"math"
 	"strings"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/hexutil"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/hexutil"
 )
 
 // API describes the set of methods offered over the RPC interface

@@ -23,10 +23,10 @@ import (
 	"math/big"
 
 	"github.com/holiman/uint256"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/crypto/kzg4844"
-	"github.com/serenite11/op-geth/params"
-	"github.com/serenite11/op-geth/rlp"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/crypto/kzg4844"
+	"github.com/serenite11/go-optimism/params"
+	"github.com/serenite11/go-optimism/rlp"
 )
 
 // BlobTx represents an EIP-4844 transaction.

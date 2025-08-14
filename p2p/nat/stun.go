@@ -26,7 +26,7 @@ import (
 	"time"
 
 	stunV2 "github.com/pion/stun/v2"
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/log"
 )
 
 //go:embed stun-list.txt

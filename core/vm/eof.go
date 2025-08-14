@@ -24,7 +24,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/go-optimism/params"
 )
 
 const (

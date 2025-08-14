@@ -19,9 +19,9 @@ package sync
 import (
 	"testing"
 
-	"github.com/serenite11/op-geth/beacon/light/request"
-	"github.com/serenite11/op-geth/beacon/types"
-	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/go-optimism/beacon/light/request"
+	"github.com/serenite11/go-optimism/beacon/types"
+	"github.com/serenite11/go-optimism/common"
 )
 
 var (

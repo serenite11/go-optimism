@@ -19,8 +19,8 @@ package utils
 import (
 	"fmt"
 
-	"github.com/serenite11/op-geth/eth/ethconfig"
-	"github.com/serenite11/op-geth/internal/flags"
+	"github.com/serenite11/go-optimism/eth/ethconfig"
+	"github.com/serenite11/go-optimism/internal/flags"
 	"github.com/urfave/cli/v2"
 )
 

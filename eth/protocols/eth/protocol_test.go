@@ -21,9 +21,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/rlp"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/rlp"
 )
 
 // Tests that the custom union field encoder and decoder works correctly.

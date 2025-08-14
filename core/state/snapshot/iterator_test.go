@@ -25,8 +25,8 @@ import (
 	"testing"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/rawdb"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/rawdb"
 )
 
 // TestAccountIteratorBasics tests some simple single-layer(diff and disk) iteration

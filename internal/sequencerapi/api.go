@@ -6,13 +6,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/internal/ethapi"
-	"github.com/serenite11/op-geth/metrics"
-	"github.com/serenite11/op-geth/params"
-	"github.com/serenite11/op-geth/rpc"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/internal/ethapi"
+	"github.com/serenite11/go-optimism/metrics"
+	"github.com/serenite11/go-optimism/params"
+	"github.com/serenite11/go-optimism/rpc"
 	"golang.org/x/time/rate"
 )
 

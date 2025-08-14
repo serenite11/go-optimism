@@ -29,9 +29,9 @@ import (
 	"time"
 
 	"github.com/ethereum/go-verkle"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/rlp"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/rlp"
 )
 
 // A BlockNonce is a 64-bit hash which proves (combined with the

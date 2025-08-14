@@ -17,14 +17,14 @@
 package blsync
 
 import (
-	"github.com/serenite11/op-geth/beacon/light/request"
-	"github.com/serenite11/op-geth/beacon/light/sync"
-	"github.com/serenite11/op-geth/beacon/params"
-	"github.com/serenite11/op-geth/beacon/types"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/lru"
-	"github.com/serenite11/op-geth/event"
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/beacon/light/request"
+	"github.com/serenite11/go-optimism/beacon/light/sync"
+	"github.com/serenite11/go-optimism/beacon/params"
+	"github.com/serenite11/go-optimism/beacon/types"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/lru"
+	"github.com/serenite11/go-optimism/event"
+	"github.com/serenite11/go-optimism/log"
 )
 
 // beaconBlockSync implements request.Module; it fetches the beacon blocks belonging

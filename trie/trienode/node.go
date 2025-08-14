@@ -22,7 +22,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/go-optimism/common"
 )
 
 // Node is a wrapper which contains the encoded blob of the trie node and its

@@ -1,5 +1,5 @@
 language: go
-go_import_path: github.com/serenite11/op-geth
+go_import_path: github.com/serenite11/go-optimism
 sudo: false
 jobs:
   include:

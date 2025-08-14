@@ -29,14 +29,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/serenite11/op-geth/consensus"
-	"github.com/serenite11/op-geth/consensus/ethash"
-	"github.com/serenite11/op-geth/core/rawdb"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/core/vm"
-	"github.com/serenite11/op-geth/ethdb"
-	"github.com/serenite11/op-geth/ethdb/pebble"
-	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/go-optimism/consensus"
+	"github.com/serenite11/go-optimism/consensus/ethash"
+	"github.com/serenite11/go-optimism/core/rawdb"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/core/vm"
+	"github.com/serenite11/go-optimism/ethdb"
+	"github.com/serenite11/go-optimism/ethdb/pebble"
+	"github.com/serenite11/go-optimism/params"
 )
 
 // snapshotTestBasic wraps the common testing fields in the snapshot tests.

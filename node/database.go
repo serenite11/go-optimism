@@ -19,11 +19,11 @@ package node
 import (
 	"fmt"
 
-	"github.com/serenite11/op-geth/core/rawdb"
-	"github.com/serenite11/op-geth/ethdb"
-	"github.com/serenite11/op-geth/ethdb/leveldb"
-	"github.com/serenite11/op-geth/ethdb/pebble"
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/core/rawdb"
+	"github.com/serenite11/go-optimism/ethdb"
+	"github.com/serenite11/go-optimism/ethdb/leveldb"
+	"github.com/serenite11/go-optimism/ethdb/pebble"
+	"github.com/serenite11/go-optimism/log"
 )
 
 // openOptions contains the options to apply when opening a database.

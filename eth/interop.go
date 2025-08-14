@@ -5,10 +5,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/core/types/interoptypes"
-	"github.com/serenite11/op-geth/miner"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/core/types/interoptypes"
+	"github.com/serenite11/go-optimism/miner"
 )
 
 func (s *Ethereum) setSupervisorFailsafe(enabled bool) {

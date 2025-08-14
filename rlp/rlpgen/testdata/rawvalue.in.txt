@@ -2,7 +2,7 @@
 
 package test
 
-import "github.com/serenite11/op-geth/rlp"
+import "github.com/serenite11/go-optimism/rlp"
 
 type Test struct {
 	RawValue          rlp.RawValue

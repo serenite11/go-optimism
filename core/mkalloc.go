@@ -33,9 +33,9 @@ import (
 	"slices"
 	"strconv"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core"
-	"github.com/serenite11/op-geth/rlp"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core"
+	"github.com/serenite11/go-optimism/rlp"
 )
 
 type allocItem struct {

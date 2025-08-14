@@ -19,10 +19,10 @@ package keystore
 import (
 	"math/big"
 
-	"github.com/serenite11/op-geth"
-	"github.com/serenite11/op-geth/accounts"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/crypto"
+	"github.com/serenite11/go-optimism"
+	"github.com/serenite11/go-optimism/accounts"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/crypto"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/serenite11/op-geth/beacon/params"
-	"github.com/serenite11/op-geth/beacon/types"
-	"github.com/serenite11/op-geth/common/mclock"
-	"github.com/serenite11/op-geth/ethdb/memorydb"
+	"github.com/serenite11/go-optimism/beacon/params"
+	"github.com/serenite11/go-optimism/beacon/types"
+	"github.com/serenite11/go-optimism/common/mclock"
+	"github.com/serenite11/go-optimism/ethdb/memorydb"
 )
 
 var (

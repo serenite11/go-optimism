@@ -20,7 +20,7 @@ import (
 	_ "embed"
 	"encoding/json"
 
-	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/go-optimism/common"
 )
 
 // checkpointList lists checkpoints for finalized epochs of a given chain.

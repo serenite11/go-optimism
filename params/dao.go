@@ -19,7 +19,7 @@ package params
 import (
 	"math/big"
 
-	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/go-optimism/common"
 )
 
 // DAOForkBlockExtra is the block header extra-data field to set for the DAO fork

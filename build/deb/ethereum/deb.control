@@ -5,8 +5,8 @@ Maintainer: {{.Author}}
 Build-Depends: debhelper (>= 8.0.0), golang-go
 Standards-Version: 3.9.5
 Homepage: https://ethereum.org
-Vcs-Git: https://github.com/serenite11/op-geth.git
-Vcs-Browser: https://github.com/serenite11/op-geth
+Vcs-Git: https://github.com/serenite11/go-optimism.git
+Vcs-Browser: https://github.com/serenite11/go-optimism
 
 Package: {{.Name}}
 Architecture: any

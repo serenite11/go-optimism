@@ -1,4 +1,4 @@
-module github.com/serenite11/op-geth
+module github.com/serenite11/go-optimism
 
 go 1.23.0
 

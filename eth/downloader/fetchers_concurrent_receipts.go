@@ -19,9 +19,9 @@ package downloader
 import (
 	"time"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/eth/protocols/eth"
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/eth/protocols/eth"
+	"github.com/serenite11/go-optimism/log"
 )
 
 // receiptQueue implements typedQueue and is a type adapter between the generic

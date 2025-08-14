@@ -21,10 +21,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/serenite11/op-geth"
-	"github.com/serenite11/op-geth/core"
-	"github.com/serenite11/op-geth/event"
-	"github.com/serenite11/op-geth/rpc"
+	"github.com/serenite11/go-optimism"
+	"github.com/serenite11/go-optimism/core"
+	"github.com/serenite11/go-optimism/event"
+	"github.com/serenite11/go-optimism/rpc"
 )
 
 // DownloaderAPI provides an API which gives information about the current

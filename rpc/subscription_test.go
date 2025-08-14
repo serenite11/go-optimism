@@ -28,8 +28,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/types"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/types"
 )
 
 func TestNewID(t *testing.T) {

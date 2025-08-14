@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/go-optimism/common"
 )
 
 // ErrCommitted is returned when an already committed trie is requested for usage.

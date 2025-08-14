@@ -27,7 +27,7 @@ import (
 	"fmt"
 
 	pcsc "github.com/gballet/go-libpcsclite"
-	"github.com/serenite11/op-geth/crypto"
+	"github.com/serenite11/go-optimism/crypto"
 	"golang.org/x/crypto/pbkdf2"
 	"golang.org/x/text/unicode/norm"
 )

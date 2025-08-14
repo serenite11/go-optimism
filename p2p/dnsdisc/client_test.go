@@ -26,13 +26,13 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/common/mclock"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/internal/testlog"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/p2p/enode"
-	"github.com/serenite11/op-geth/p2p/enr"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/common/mclock"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/internal/testlog"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/p2p/enode"
+	"github.com/serenite11/go-optimism/p2p/enr"
 )
 
 var signingKeyForTesting, _ = crypto.ToECDSA(hexutil.MustDecode("0xdc599867fc513f8f5e2c2c9c489cde5e71362d1d9ec6e693e0de063236ed1240"))

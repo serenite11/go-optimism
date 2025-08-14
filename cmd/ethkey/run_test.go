@@ -21,8 +21,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/serenite11/op-geth/internal/cmdtest"
-	"github.com/serenite11/op-geth/internal/reexec"
+	"github.com/serenite11/go-optimism/internal/cmdtest"
+	"github.com/serenite11/go-optimism/internal/reexec"
 )
 
 type testEthkey struct {

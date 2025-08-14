@@ -3,7 +3,7 @@ package superchain
 import (
 	"testing"
 
-	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/go-optimism/common"
 	"github.com/stretchr/testify/require"
 )
 

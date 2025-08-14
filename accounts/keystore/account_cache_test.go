@@ -29,8 +29,8 @@ import (
 
 	"github.com/cespare/cp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/serenite11/op-geth/accounts"
-	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/go-optimism/accounts"
+	"github.com/serenite11/go-optimism/common"
 )
 
 var (

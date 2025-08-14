@@ -19,9 +19,9 @@ package state
 import (
 	"maps"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/trie/trienode"
-	"github.com/serenite11/op-geth/triedb"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/trie/trienode"
+	"github.com/serenite11/go-optimism/triedb"
 )
 
 // contractCode represents a contract code with associated metadata.

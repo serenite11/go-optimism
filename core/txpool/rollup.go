@@ -21,7 +21,7 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/serenite11/op-geth/core/types"
+	"github.com/serenite11/go-optimism/core/types"
 )
 
 type RollupCostFunc func(tx types.RollupTransaction) *uint256.Int

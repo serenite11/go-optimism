@@ -23,7 +23,7 @@ import (
 	"slices"
 
 	"github.com/holiman/uint256"
-	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/go-optimism/common"
 )
 
 // evictHeap is a helper data structure to keep track of the cheapest bottleneck

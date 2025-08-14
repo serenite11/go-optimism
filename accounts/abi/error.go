@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/crypto"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/crypto"
 )
 
 type Error struct {

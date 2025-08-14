@@ -24,8 +24,8 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/crypto"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/crypto"
 )
 
 // The ABI holds information about a contract's context and available

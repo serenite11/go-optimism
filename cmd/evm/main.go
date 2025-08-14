@@ -23,17 +23,17 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/serenite11/op-geth/cmd/evm/internal/t8ntool"
-	"github.com/serenite11/op-geth/core/state"
-	"github.com/serenite11/op-geth/core/tracing"
-	"github.com/serenite11/op-geth/eth/tracers/logger"
-	"github.com/serenite11/op-geth/internal/debug"
-	"github.com/serenite11/op-geth/internal/flags"
+	"github.com/serenite11/go-optimism/cmd/evm/internal/t8ntool"
+	"github.com/serenite11/go-optimism/core/state"
+	"github.com/serenite11/go-optimism/core/tracing"
+	"github.com/serenite11/go-optimism/eth/tracers/logger"
+	"github.com/serenite11/go-optimism/internal/debug"
+	"github.com/serenite11/go-optimism/internal/flags"
 	"github.com/urfave/cli/v2"
 
 	// Force-load the tracer engines to trigger registration
-	_ "github.com/serenite11/op-geth/eth/tracers/js"
-	_ "github.com/serenite11/op-geth/eth/tracers/native"
+	_ "github.com/serenite11/go-optimism/eth/tracers/js"
+	_ "github.com/serenite11/go-optimism/eth/tracers/native"
 )
 
 // Some other nice-to-haves:

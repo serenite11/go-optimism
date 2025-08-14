@@ -22,11 +22,11 @@ import (
 	"log/slog"
 	"os"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/internal/ethapi"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/signer/core/apitypes"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/internal/ethapi"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/signer/core/apitypes"
 )
 
 type AuditLogger struct {

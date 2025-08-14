@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/serenite11/op-geth/common/mclock"
-	"github.com/serenite11/op-geth/internal/testlog"
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/common/mclock"
+	"github.com/serenite11/go-optimism/internal/testlog"
+	"github.com/serenite11/go-optimism/log"
 )
 
 func TestServerPortMapping(t *testing.T) {

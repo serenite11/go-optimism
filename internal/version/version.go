@@ -23,10 +23,10 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/serenite11/op-geth/version"
+	"github.com/serenite11/go-optimism/version"
 )
 
-const ourPath = "github.com/serenite11/op-geth" // Path to our module
+const ourPath = "github.com/serenite11/go-optimism" // Path to our module
 
 // Family holds the textual version string for major.minor
 var Family = fmt.Sprintf("%d.%d", version.OPGethMajor, version.OPGethMinor)

@@ -28,8 +28,8 @@ import (
 	"testing"
 
 	influxdb2 "github.com/influxdata/influxdb-client-go/v2"
-	"github.com/serenite11/op-geth/metrics"
-	"github.com/serenite11/op-geth/metrics/internal"
+	"github.com/serenite11/go-optimism/metrics"
+	"github.com/serenite11/go-optimism/metrics/internal"
 )
 
 func TestMain(m *testing.M) {

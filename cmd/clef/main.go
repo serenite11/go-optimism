@@ -37,25 +37,25 @@ import (
 
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
-	"github.com/serenite11/op-geth/accounts"
-	"github.com/serenite11/op-geth/accounts/keystore"
-	"github.com/serenite11/op-geth/cmd/utils"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/internal/ethapi"
-	"github.com/serenite11/op-geth/internal/flags"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/node"
-	"github.com/serenite11/op-geth/params"
-	"github.com/serenite11/op-geth/rlp"
-	"github.com/serenite11/op-geth/rpc"
-	"github.com/serenite11/op-geth/signer/core"
-	"github.com/serenite11/op-geth/signer/core/apitypes"
-	"github.com/serenite11/op-geth/signer/fourbyte"
-	"github.com/serenite11/op-geth/signer/rules"
-	"github.com/serenite11/op-geth/signer/storage"
+	"github.com/serenite11/go-optimism/accounts"
+	"github.com/serenite11/go-optimism/accounts/keystore"
+	"github.com/serenite11/go-optimism/cmd/utils"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/internal/ethapi"
+	"github.com/serenite11/go-optimism/internal/flags"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/node"
+	"github.com/serenite11/go-optimism/params"
+	"github.com/serenite11/go-optimism/rlp"
+	"github.com/serenite11/go-optimism/rpc"
+	"github.com/serenite11/go-optimism/signer/core"
+	"github.com/serenite11/go-optimism/signer/core/apitypes"
+	"github.com/serenite11/go-optimism/signer/fourbyte"
+	"github.com/serenite11/go-optimism/signer/rules"
+	"github.com/serenite11/go-optimism/signer/storage"
 	"github.com/urfave/cli/v2"
 )
 
@@ -873,7 +873,7 @@ func checkFile(filename string) error {
 	}
 	// Check the unix permission bits
 	// However, on windows, we cannot use the unix perm-bits, see
-	// https://github.com/serenite11/op-geth/issues/20123
+	// https://github.com/serenite11/go-optimism/issues/20123
 	if runtime.GOOS != "windows" && info.Mode().Perm()&0377 != 0 {
 		return fmt.Errorf("file (%v) has insecure file permissions (%v)", filename, info.Mode().String())
 	}

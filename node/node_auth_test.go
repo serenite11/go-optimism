@@ -27,8 +27,8 @@ import (
 	"time"
 
 	"github.com/golang-jwt/jwt/v4"
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/rpc"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/rpc"
 )
 
 type helloRPC string

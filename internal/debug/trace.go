@@ -21,7 +21,7 @@ import (
 	"os"
 	"runtime/trace"
 
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/log"
 )
 
 // StartGoTrace turns on tracing, writing to the given file.

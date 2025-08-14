@@ -20,7 +20,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/log"
 )
 
 // StartIPCEndpoint starts an IPC endpoint.

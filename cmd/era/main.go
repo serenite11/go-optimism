@@ -27,14 +27,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/eth"
-	"github.com/serenite11/op-geth/internal/era"
-	"github.com/serenite11/op-geth/internal/ethapi"
-	"github.com/serenite11/op-geth/internal/flags"
-	"github.com/serenite11/op-geth/params"
-	"github.com/serenite11/op-geth/trie"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/eth"
+	"github.com/serenite11/go-optimism/internal/era"
+	"github.com/serenite11/go-optimism/internal/ethapi"
+	"github.com/serenite11/go-optimism/internal/flags"
+	"github.com/serenite11/go-optimism/params"
+	"github.com/serenite11/go-optimism/trie"
 	"github.com/urfave/cli/v2"
 )
 

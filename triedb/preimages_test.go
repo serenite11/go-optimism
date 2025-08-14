@@ -20,9 +20,9 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/rawdb"
-	"github.com/serenite11/op-geth/triedb/hashdb"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/rawdb"
+	"github.com/serenite11/go-optimism/triedb/hashdb"
 )
 
 // TestDatabasePreimages tests the preimage functionality of the trie database.

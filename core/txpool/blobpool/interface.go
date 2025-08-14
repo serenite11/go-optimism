@@ -17,10 +17,10 @@
 package blobpool
 
 import (
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/state"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/state"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/params"
 )
 
 // BlockChain defines the minimal set of methods needed to back a blob pool with

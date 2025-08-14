@@ -32,7 +32,7 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/serenite11/op-geth/internal/reexec"
+	"github.com/serenite11/go-optimism/internal/reexec"
 )
 
 func NewTestCmd(t *testing.T, data interface{}) *TestCmd {

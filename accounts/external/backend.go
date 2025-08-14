@@ -22,15 +22,15 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/serenite11/op-geth"
-	"github.com/serenite11/op-geth/accounts"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/event"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/rpc"
-	"github.com/serenite11/op-geth/signer/core/apitypes"
+	"github.com/serenite11/go-optimism"
+	"github.com/serenite11/go-optimism/accounts"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/event"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/rpc"
+	"github.com/serenite11/go-optimism/signer/core/apitypes"
 )
 
 type ExternalBackend struct {

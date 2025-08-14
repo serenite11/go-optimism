@@ -22,14 +22,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/serenite11/op-geth/accounts"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/internal/ethapi"
-	"github.com/serenite11/op-geth/signer/core"
-	"github.com/serenite11/op-geth/signer/core/apitypes"
-	"github.com/serenite11/op-geth/signer/storage"
+	"github.com/serenite11/go-optimism/accounts"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/internal/ethapi"
+	"github.com/serenite11/go-optimism/signer/core"
+	"github.com/serenite11/go-optimism/signer/core/apitypes"
+	"github.com/serenite11/go-optimism/signer/storage"
 )
 
 const JS = `

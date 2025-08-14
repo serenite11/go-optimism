@@ -28,9 +28,9 @@ import (
 	"time"
 
 	bloomfilter "github.com/holiman/bloomfilter/v2"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/rlp"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/rlp"
 )
 
 var (

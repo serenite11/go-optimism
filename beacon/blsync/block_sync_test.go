@@ -21,10 +21,10 @@ import (
 
 	zrntcommon "github.com/protolambda/zrnt/eth2/beacon/common"
 	"github.com/protolambda/zrnt/eth2/beacon/deneb"
-	"github.com/serenite11/op-geth/beacon/light/request"
-	"github.com/serenite11/op-geth/beacon/light/sync"
-	"github.com/serenite11/op-geth/beacon/types"
-	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/go-optimism/beacon/light/request"
+	"github.com/serenite11/go-optimism/beacon/light/sync"
+	"github.com/serenite11/go-optimism/beacon/types"
+	"github.com/serenite11/go-optimism/common"
 )
 
 var (

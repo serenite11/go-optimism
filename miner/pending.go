@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/go-optimism/common"
 )
 
 // pendingTTL indicates the period of time a generated pending block should

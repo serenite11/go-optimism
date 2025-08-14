@@ -17,8 +17,8 @@
 package triedb
 
 import (
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/triedb/pathdb"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/triedb/pathdb"
 )
 
 // StateSet represents a collection of mutated states during a state transition.

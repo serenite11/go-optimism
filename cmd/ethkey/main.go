@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/serenite11/op-geth/internal/flags"
+	"github.com/serenite11/go-optimism/internal/flags"
 	"github.com/urfave/cli/v2"
 )
 

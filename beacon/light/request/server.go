@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/serenite11/op-geth/common/mclock"
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/common/mclock"
+	"github.com/serenite11/go-optimism/log"
 )
 
 var (

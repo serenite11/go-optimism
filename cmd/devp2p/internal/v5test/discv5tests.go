@@ -23,10 +23,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/serenite11/op-geth/internal/utesting"
-	"github.com/serenite11/op-geth/p2p/discover/v5wire"
-	"github.com/serenite11/op-geth/p2p/enode"
-	"github.com/serenite11/op-geth/p2p/netutil"
+	"github.com/serenite11/go-optimism/internal/utesting"
+	"github.com/serenite11/go-optimism/p2p/discover/v5wire"
+	"github.com/serenite11/go-optimism/p2p/enode"
+	"github.com/serenite11/go-optimism/p2p/netutil"
 )
 
 // Suite is the discv5 test suite.

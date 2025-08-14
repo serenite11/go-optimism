@@ -19,8 +19,8 @@ package rawdb
 import (
 	"testing"
 
-	"github.com/serenite11/op-geth/core/rawdb/ancienttest"
-	"github.com/serenite11/op-geth/ethdb"
+	"github.com/serenite11/go-optimism/core/rawdb/ancienttest"
+	"github.com/serenite11/go-optimism/ethdb"
 )
 
 func TestMemoryFreezer(t *testing.T) {

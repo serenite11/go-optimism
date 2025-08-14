@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/serenite11/op-geth/internal/testlog"
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/internal/testlog"
+	"github.com/serenite11/go-optimism/log"
 )
 
 type testRecorder struct {

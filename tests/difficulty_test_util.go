@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/math"
-	"github.com/serenite11/op-geth/consensus/ethash"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/math"
+	"github.com/serenite11/go-optimism/consensus/ethash"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/params"
 )
 
 //go:generate go run github.com/fjl/gencodec -type DifficultyTest -field-override difficultyTestMarshaling -out gen_difficultytest.go

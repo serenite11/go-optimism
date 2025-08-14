@@ -24,14 +24,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/serenite11/op-geth"
-	"github.com/serenite11/op-geth/accounts/abi"
-	"github.com/serenite11/op-geth/accounts/abi/bind/v2"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/rlp"
+	"github.com/serenite11/go-optimism"
+	"github.com/serenite11/go-optimism/accounts/abi"
+	"github.com/serenite11/go-optimism/accounts/abi/bind/v2"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/rlp"
 	"github.com/stretchr/testify/assert"
 )
 

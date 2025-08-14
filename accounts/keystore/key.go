@@ -29,9 +29,9 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/serenite11/op-geth/accounts"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/crypto"
+	"github.com/serenite11/go-optimism/accounts"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/crypto"
 )
 
 const (

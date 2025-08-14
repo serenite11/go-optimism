@@ -17,7 +17,7 @@
 package ethclient_test
 
 import (
-	"github.com/serenite11/op-geth/node"
+	"github.com/serenite11/go-optimism/node"
 )
 
 var exampleNode *node.Node

@@ -5,10 +5,10 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/rpc"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/rpc"
 )
 
 // SuggestOptimismPriorityFee returns a max priority fee value that can be used such that newly

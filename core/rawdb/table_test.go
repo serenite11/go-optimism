@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/serenite11/op-geth/ethdb"
+	"github.com/serenite11/go-optimism/ethdb"
 )
 
 func TestTableDatabase(t *testing.T)            { testTableDatabase(t, "prefix") }

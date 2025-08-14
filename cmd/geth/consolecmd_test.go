@@ -26,7 +26,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/serenite11/op-geth/internal/version"
+	"github.com/serenite11/go-optimism/internal/version"
 )
 
 const (

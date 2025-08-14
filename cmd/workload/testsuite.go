@@ -23,12 +23,12 @@ import (
 	"os"
 	"slices"
 
-	"github.com/serenite11/op-geth/core/history"
-	"github.com/serenite11/op-geth/internal/flags"
-	"github.com/serenite11/op-geth/internal/utesting"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/params"
-	"github.com/serenite11/op-geth/rpc"
+	"github.com/serenite11/go-optimism/core/history"
+	"github.com/serenite11/go-optimism/internal/flags"
+	"github.com/serenite11/go-optimism/internal/utesting"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/params"
+	"github.com/serenite11/go-optimism/rpc"
 	"github.com/urfave/cli/v2"
 )
 

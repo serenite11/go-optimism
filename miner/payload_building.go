@@ -26,14 +26,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/serenite11/op-geth/beacon/engine"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/core/stateless"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/params"
-	"github.com/serenite11/op-geth/rlp"
+	"github.com/serenite11/go-optimism/beacon/engine"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/core/stateless"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/params"
+	"github.com/serenite11/go-optimism/rlp"
 )
 
 // BuildPayloadArgs contains the provided parameters for building payload.

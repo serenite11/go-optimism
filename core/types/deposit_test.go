@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/serenite11/op-geth/accounts/abi"
-	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/go-optimism/accounts/abi"
+	"github.com/serenite11/go-optimism/common"
 	"github.com/stretchr/testify/require"
 )
 

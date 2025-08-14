@@ -23,11 +23,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/params"
-	"github.com/serenite11/op-geth/rlp"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/params"
+	"github.com/serenite11/go-optimism/rlp"
 )
 
 // TestCreation tests that different genesis and fork rule combinations result in

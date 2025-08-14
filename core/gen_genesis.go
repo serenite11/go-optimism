@@ -7,11 +7,11 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/common/math"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/common/math"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/params"
 )
 
 var _ = (*genesisSpecMarshaling)(nil)

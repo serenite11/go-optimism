@@ -28,7 +28,7 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/serenite11/op-geth/accounts/abi"
+	"github.com/serenite11/go-optimism/accounts/abi"
 )
 
 // underlyingBindType returns a string representation of the Go type

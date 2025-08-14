@@ -29,7 +29,7 @@ import (
 	"github.com/huin/goupnp"
 	"github.com/huin/goupnp/dcps/internetgateway1"
 	"github.com/huin/goupnp/dcps/internetgateway2"
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/log"
 )
 
 const (

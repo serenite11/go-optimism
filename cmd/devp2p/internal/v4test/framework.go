@@ -22,9 +22,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/p2p/discover/v4wire"
-	"github.com/serenite11/op-geth/p2p/enode"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/p2p/discover/v4wire"
+	"github.com/serenite11/go-optimism/p2p/enode"
 )
 
 const waitTime = 300 * time.Millisecond

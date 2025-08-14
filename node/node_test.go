@@ -27,10 +27,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/ethdb"
-	"github.com/serenite11/op-geth/p2p"
-	"github.com/serenite11/op-geth/rpc"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/ethdb"
+	"github.com/serenite11/go-optimism/p2p"
+	"github.com/serenite11/go-optimism/rpc"
 
 	"github.com/stretchr/testify/assert"
 )

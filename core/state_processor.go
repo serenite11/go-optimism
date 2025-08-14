@@ -20,14 +20,14 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/consensus/misc"
-	"github.com/serenite11/op-geth/core/state"
-	"github.com/serenite11/op-geth/core/tracing"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/core/vm"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/consensus/misc"
+	"github.com/serenite11/go-optimism/core/state"
+	"github.com/serenite11/go-optimism/core/tracing"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/core/vm"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/params"
 )
 
 // StateProcessor is a basic Processor, which takes care of transitioning

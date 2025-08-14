@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/rlp"
-	"github.com/serenite11/op-geth/trie"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/rlp"
+	"github.com/serenite11/go-optimism/trie"
 )
 
 // DumpConfig is a set of options to control what portions of the state will be

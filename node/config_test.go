@@ -23,8 +23,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/p2p"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/p2p"
 )
 
 // Tests that datadirs can be successfully created, be them manually configured

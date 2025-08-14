@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/serenite11/op-geth/p2p/enr"
+	"github.com/serenite11/go-optimism/p2p/enr"
 )
 
 func TestReadNodes(t *testing.T) {

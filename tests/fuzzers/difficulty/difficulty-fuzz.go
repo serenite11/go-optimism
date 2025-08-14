@@ -23,8 +23,8 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/serenite11/op-geth/consensus/ethash"
-	"github.com/serenite11/op-geth/core/types"
+	"github.com/serenite11/go-optimism/consensus/ethash"
+	"github.com/serenite11/go-optimism/core/types"
 )
 
 type fuzzer struct {

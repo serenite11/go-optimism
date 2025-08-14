@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/serenite11/op-geth/ethclient"
-	"github.com/serenite11/op-geth/internal/debug"
-	"github.com/serenite11/op-geth/internal/flags"
-	"github.com/serenite11/op-geth/rpc"
+	"github.com/serenite11/go-optimism/ethclient"
+	"github.com/serenite11/go-optimism/internal/debug"
+	"github.com/serenite11/go-optimism/internal/flags"
+	"github.com/serenite11/go-optimism/rpc"
 	"github.com/urfave/cli/v2"
 )
 

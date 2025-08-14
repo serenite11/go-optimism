@@ -22,16 +22,16 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core"
-	"github.com/serenite11/op-geth/core/rawdb"
-	"github.com/serenite11/op-geth/core/state"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/core/vm"
-	"github.com/serenite11/op-geth/eth/tracers"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/trie"
-	"github.com/serenite11/op-geth/triedb"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core"
+	"github.com/serenite11/go-optimism/core/rawdb"
+	"github.com/serenite11/go-optimism/core/state"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/core/vm"
+	"github.com/serenite11/go-optimism/eth/tracers"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/trie"
+	"github.com/serenite11/go-optimism/triedb"
 )
 
 // noopReleaser is returned in case there is no operation expected

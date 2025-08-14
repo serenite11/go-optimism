@@ -23,10 +23,10 @@ import (
 	"math/big"
 
 	"github.com/holiman/uint256"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/crypto/kzg4844"
-	"github.com/serenite11/op-geth/rlp"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/crypto/kzg4844"
+	"github.com/serenite11/go-optimism/rlp"
 )
 
 // txJSON is the JSON representation of transactions.

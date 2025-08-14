@@ -19,9 +19,9 @@ package triedb
 import (
 	"sync"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/rawdb"
-	"github.com/serenite11/op-geth/ethdb"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/rawdb"
+	"github.com/serenite11/go-optimism/ethdb"
 )
 
 // preimageStore is the store for caching preimages of node key.

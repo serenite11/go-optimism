@@ -21,16 +21,16 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/math"
-	"github.com/serenite11/op-geth/consensus/ethash"
-	"github.com/serenite11/op-geth/core/rawdb"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/core/vm"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/ethdb"
-	"github.com/serenite11/op-geth/ethdb/pebble"
-	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/math"
+	"github.com/serenite11/go-optimism/consensus/ethash"
+	"github.com/serenite11/go-optimism/core/rawdb"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/core/vm"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/ethdb"
+	"github.com/serenite11/go-optimism/ethdb/pebble"
+	"github.com/serenite11/go-optimism/params"
 )
 
 func BenchmarkInsertChain_empty_memdb(b *testing.B) {

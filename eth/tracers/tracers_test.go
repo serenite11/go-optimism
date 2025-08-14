@@ -20,15 +20,15 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core"
-	"github.com/serenite11/op-geth/core/rawdb"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/core/vm"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/eth/tracers/logger"
-	"github.com/serenite11/op-geth/params"
-	"github.com/serenite11/op-geth/tests"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core"
+	"github.com/serenite11/go-optimism/core/rawdb"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/core/vm"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/eth/tracers/logger"
+	"github.com/serenite11/go-optimism/params"
+	"github.com/serenite11/go-optimism/tests"
 )
 
 func BenchmarkTransactionTraceV2(b *testing.B) {

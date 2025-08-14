@@ -21,7 +21,7 @@ import (
 	"encoding/binary"
 	mrand "math/rand"
 
-	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/go-optimism/common"
 )
 
 // prng is a pseudo random number generator seeded by strong randomness.

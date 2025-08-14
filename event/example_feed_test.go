@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/serenite11/op-geth/event"
+	"github.com/serenite11/go-optimism/event"
 )
 
 func ExampleFeed_acknowledgedEvents() {

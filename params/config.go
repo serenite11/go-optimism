@@ -22,9 +22,9 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/params/forks"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/params/forks"
 )
 
 // Genesis hashes to enforce below configs on.

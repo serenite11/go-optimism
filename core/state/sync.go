@@ -17,11 +17,11 @@
 package state
 
 import (
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/ethdb"
-	"github.com/serenite11/op-geth/rlp"
-	"github.com/serenite11/op-geth/trie"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/ethdb"
+	"github.com/serenite11/go-optimism/rlp"
+	"github.com/serenite11/go-optimism/trie"
 )
 
 // NewStateSync creates a new state trie download scheduler.

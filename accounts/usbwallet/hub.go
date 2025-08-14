@@ -24,9 +24,9 @@ import (
 	"time"
 
 	"github.com/karalabe/hid"
-	"github.com/serenite11/op-geth/accounts"
-	"github.com/serenite11/op-geth/event"
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/accounts"
+	"github.com/serenite11/go-optimism/event"
+	"github.com/serenite11/go-optimism/log"
 )
 
 // LedgerScheme is the protocol scheme prefixing account and wallet URLs.

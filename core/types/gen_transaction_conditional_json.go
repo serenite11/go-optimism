@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"github.com/serenite11/op-geth/common/math"
+	"github.com/serenite11/go-optimism/common/math"
 )
 
 var _ = (*transactionConditionalMarshalling)(nil)

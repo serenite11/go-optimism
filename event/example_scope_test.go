@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/serenite11/op-geth/event"
+	"github.com/serenite11/go-optimism/event"
 )
 
 // This example demonstrates how SubscriptionScope can be used to control the lifetime of

@@ -15,7 +15,7 @@
 // along with the go-ethereum library. If not, see <http://www.gnu.org/licenses/>.
 
 // Package bind is the runtime for abigen v1 generated contract bindings.
-// Deprecated: please use github.com/serenite11/op-geth/bind/v2
+// Deprecated: please use github.com/serenite11/go-optimism/bind/v2
 package bind
 
 import (
@@ -27,20 +27,20 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/serenite11/op-geth/accounts"
-	"github.com/serenite11/op-geth/accounts/abi"
-	"github.com/serenite11/op-geth/accounts/abi/abigen"
-	bind2 "github.com/serenite11/op-geth/accounts/abi/bind/v2"
-	"github.com/serenite11/op-geth/accounts/external"
-	"github.com/serenite11/op-geth/accounts/keystore"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/accounts"
+	"github.com/serenite11/go-optimism/accounts/abi"
+	"github.com/serenite11/go-optimism/accounts/abi/abigen"
+	bind2 "github.com/serenite11/go-optimism/accounts/abi/bind/v2"
+	"github.com/serenite11/go-optimism/accounts/external"
+	"github.com/serenite11/go-optimism/accounts/keystore"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/log"
 )
 
 // Bind generates a v1 contract binding.
-// Deprecated: binding generation has moved to github.com/serenite11/op-geth/accounts/abi/abigen
+// Deprecated: binding generation has moved to github.com/serenite11/go-optimism/accounts/abi/abigen
 func Bind(types []string, abis []string, bytecodes []string, fsigs []map[string]string, pkg string, libs map[string]string, aliases map[string]string) (string, error) {
 	return abigen.Bind(types, abis, bytecodes, fsigs, pkg, libs, aliases)
 }

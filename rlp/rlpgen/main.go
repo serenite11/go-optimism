@@ -27,7 +27,7 @@ import (
 	"golang.org/x/tools/go/packages"
 )
 
-const pathOfPackageRLP = "github.com/serenite11/op-geth/rlp"
+const pathOfPackageRLP = "github.com/serenite11/go-optimism/rlp"
 
 func main() {
 	var (

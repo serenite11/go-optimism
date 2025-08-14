@@ -20,9 +20,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/serenite11/op-geth/beacon/light"
-	"github.com/serenite11/op-geth/beacon/light/request"
-	"github.com/serenite11/op-geth/beacon/types"
+	"github.com/serenite11/go-optimism/beacon/light"
+	"github.com/serenite11/go-optimism/beacon/light/request"
+	"github.com/serenite11/go-optimism/beacon/types"
 )
 
 type requestWithID struct {

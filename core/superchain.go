@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/serenite11/op-geth/superchain"
+	"github.com/serenite11/go-optimism/superchain"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/params"
 )
 
 func LoadOPStackGenesis(chainID uint64) (*Genesis, error) {

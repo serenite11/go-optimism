@@ -20,9 +20,9 @@ package ethash
 import (
 	"time"
 
-	"github.com/serenite11/op-geth/consensus"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/rpc"
+	"github.com/serenite11/go-optimism/consensus"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/rpc"
 )
 
 // Ethash is a consensus engine based on proof-of-work implementing the ethash

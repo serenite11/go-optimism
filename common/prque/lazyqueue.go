@@ -21,7 +21,7 @@ import (
 	"container/heap"
 	"time"
 
-	"github.com/serenite11/op-geth/common/mclock"
+	"github.com/serenite11/go-optimism/common/mclock"
 )
 
 // LazyQueue is a priority queue data structure where priorities can change over

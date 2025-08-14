@@ -19,14 +19,14 @@ package backends
 import (
 	"context"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/eth/ethconfig"
-	"github.com/serenite11/op-geth/ethclient/simulated"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/eth/ethconfig"
+	"github.com/serenite11/go-optimism/ethclient/simulated"
 )
 
 // SimulatedBackend is a simulated blockchain.
-// Deprecated: use package github.com/serenite11/op-geth/ethclient/simulated instead.
+// Deprecated: use package github.com/serenite11/go-optimism/ethclient/simulated instead.
 type SimulatedBackend struct {
 	*simulated.Backend
 	simulated.Client
@@ -43,7 +43,7 @@ func (b *SimulatedBackend) Fork(ctx context.Context, parentHash common.Hash) err
 // A simulated backend always uses chainID 1337.
 //
 // Deprecated: please use simulated.Backend from package
-// github.com/serenite11/op-geth/ethclient/simulated instead.
+// github.com/serenite11/go-optimism/ethclient/simulated instead.
 func NewSimulatedBackend(alloc types.GenesisAlloc, gasLimit uint64) *SimulatedBackend {
 	b := simulated.NewBackend(alloc, simulated.WithBlockGasLimit(gasLimit))
 	return &SimulatedBackend{

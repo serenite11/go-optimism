@@ -24,12 +24,12 @@ import (
 
 	"github.com/ethereum/go-verkle"
 	"github.com/holiman/uint256"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/ethdb"
-	"github.com/serenite11/op-geth/trie/trienode"
-	"github.com/serenite11/op-geth/trie/utils"
-	"github.com/serenite11/op-geth/triedb/database"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/ethdb"
+	"github.com/serenite11/go-optimism/trie/trienode"
+	"github.com/serenite11/go-optimism/trie/utils"
+	"github.com/serenite11/go-optimism/triedb/database"
 )
 
 var (

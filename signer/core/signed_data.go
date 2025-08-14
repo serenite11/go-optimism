@@ -23,14 +23,14 @@ import (
 	"fmt"
 	"mime"
 
-	"github.com/serenite11/op-geth/accounts"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/consensus/clique"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/rlp"
-	"github.com/serenite11/op-geth/signer/core/apitypes"
+	"github.com/serenite11/go-optimism/accounts"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/consensus/clique"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/rlp"
+	"github.com/serenite11/go-optimism/signer/core/apitypes"
 )
 
 // sign receives a request and produces a signature

@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/serenite11/op-geth/cmd/devp2p/internal/ethtest"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/p2p"
-	"github.com/serenite11/op-geth/p2p/enode"
-	"github.com/serenite11/op-geth/p2p/rlpx"
-	"github.com/serenite11/op-geth/rlp"
+	"github.com/serenite11/go-optimism/cmd/devp2p/internal/ethtest"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/p2p"
+	"github.com/serenite11/go-optimism/p2p/enode"
+	"github.com/serenite11/go-optimism/p2p/rlpx"
+	"github.com/serenite11/go-optimism/rlp"
 	"github.com/urfave/cli/v2"
 )
 

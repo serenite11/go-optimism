@@ -20,7 +20,7 @@ package utils
 import (
 	"fmt"
 
-	"github.com/serenite11/op-geth/console/prompt"
+	"github.com/serenite11/go-optimism/console/prompt"
 )
 
 // GetPassPhrase displays the given text(prompt) to the user and requests some textual

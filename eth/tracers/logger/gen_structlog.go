@@ -5,10 +5,10 @@ package logger
 import (
 	"encoding/json"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/common/math"
-	"github.com/serenite11/op-geth/core/vm"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/common/math"
+	"github.com/serenite11/go-optimism/core/vm"
 	"github.com/holiman/uint256"
 )
 

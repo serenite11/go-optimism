@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/serenite11/op-geth/common/mclock"
-	"github.com/serenite11/op-geth/p2p/enode"
-	"github.com/serenite11/op-geth/p2p/enr"
+	"github.com/serenite11/go-optimism/common/mclock"
+	"github.com/serenite11/go-optimism/p2p/enode"
+	"github.com/serenite11/go-optimism/p2p/enr"
 )
 
 // This test checks that revalidation can handle a node disappearing while

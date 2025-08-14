@@ -21,10 +21,10 @@ import (
 	"sort"
 	"time"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/prque"
-	"github.com/serenite11/op-geth/eth/protocols/eth"
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/prque"
+	"github.com/serenite11/go-optimism/eth/protocols/eth"
+	"github.com/serenite11/go-optimism/log"
 )
 
 // timeoutGracePeriod is the amount of time to allow for a peer to deliver a

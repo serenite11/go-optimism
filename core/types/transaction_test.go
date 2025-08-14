@@ -27,9 +27,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/rlp"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/rlp"
 )
 
 // The values in those tests are from the Transaction Tests

@@ -19,10 +19,10 @@ package snap
 import (
 	"bytes"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/rawdb"
-	"github.com/serenite11/op-geth/ethdb"
-	"github.com/serenite11/op-geth/trie"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/rawdb"
+	"github.com/serenite11/go-optimism/ethdb"
+	"github.com/serenite11/go-optimism/trie"
 )
 
 // genTrie interface is used by the snap syncer to generate merkle tree nodes

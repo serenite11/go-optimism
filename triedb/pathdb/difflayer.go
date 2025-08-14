@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/log"
 )
 
 // diffLayer represents a collection of modifications made to the in-memory tries

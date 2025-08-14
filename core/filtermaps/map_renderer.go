@@ -24,10 +24,10 @@ import (
 	"sort"
 	"time"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/lru"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/lru"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/log"
 )
 
 const (

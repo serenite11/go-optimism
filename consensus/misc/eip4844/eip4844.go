@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/params"
-	"github.com/serenite11/op-geth/params/forks"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/params"
+	"github.com/serenite11/go-optimism/params/forks"
 )
 
 var (

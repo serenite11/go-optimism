@@ -19,9 +19,9 @@ package core
 import (
 	"sync/atomic"
 
-	"github.com/serenite11/op-geth/core/state"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/core/vm"
+	"github.com/serenite11/go-optimism/core/state"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/core/vm"
 )
 
 // Validator is an interface which defines the standard for block validation. It

@@ -22,12 +22,12 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/serenite11/op-geth/accounts"
-	"github.com/serenite11/op-geth/accounts/external"
-	"github.com/serenite11/op-geth/accounts/keystore"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/crypto"
+	"github.com/serenite11/go-optimism/accounts"
+	"github.com/serenite11/go-optimism/accounts/external"
+	"github.com/serenite11/go-optimism/accounts/keystore"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/crypto"
 )
 
 // ErrNotAuthorized is returned when an account is not properly unlocked.

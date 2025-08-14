@@ -19,7 +19,7 @@ package rlp
 import (
 	"testing"
 
-	"github.com/serenite11/op-geth/common/hexutil"
+	"github.com/serenite11/go-optimism/common/hexutil"
 )
 
 // TestIterator tests some basic things about the ListIterator. A more

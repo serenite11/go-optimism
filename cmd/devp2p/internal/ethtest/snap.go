@@ -24,14 +24,14 @@ import (
 	"math/rand"
 	"reflect"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/state"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/eth/protocols/snap"
-	"github.com/serenite11/op-geth/internal/utesting"
-	"github.com/serenite11/op-geth/trie"
-	"github.com/serenite11/op-geth/trie/trienode"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/state"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/eth/protocols/snap"
+	"github.com/serenite11/go-optimism/internal/utesting"
+	"github.com/serenite11/go-optimism/trie"
+	"github.com/serenite11/go-optimism/trie/trienode"
 )
 
 func (c *Conn) snapRequest(code uint64, msg any) (any, error) {

@@ -28,13 +28,13 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/serenite11/op-geth/accounts"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/rlp"
+	"github.com/serenite11/go-optimism/accounts"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/rlp"
 )
 
 // ledgerOpcode is an enumeration encoding the supported Ledger opcodes.

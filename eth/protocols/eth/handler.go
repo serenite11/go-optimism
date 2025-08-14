@@ -20,15 +20,15 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core"
-	"github.com/serenite11/op-geth/core/txpool"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/metrics"
-	"github.com/serenite11/op-geth/p2p"
-	"github.com/serenite11/op-geth/p2p/enode"
-	"github.com/serenite11/op-geth/p2p/enr"
-	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core"
+	"github.com/serenite11/go-optimism/core/txpool"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/metrics"
+	"github.com/serenite11/go-optimism/p2p"
+	"github.com/serenite11/go-optimism/p2p/enode"
+	"github.com/serenite11/go-optimism/p2p/enr"
+	"github.com/serenite11/go-optimism/params"
 )
 
 const (

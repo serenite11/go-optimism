@@ -25,13 +25,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/serenite11/op-geth"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/core/history"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/internal/ethapi"
-	"github.com/serenite11/op-geth/rpc"
+	"github.com/serenite11/go-optimism"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/core/history"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/internal/ethapi"
+	"github.com/serenite11/go-optimism/rpc"
 )
 
 var (

@@ -23,8 +23,8 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/rlp"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/rlp"
 )
 
 // EIP-8 test vectors.

@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/rpc"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/rpc"
 )
 
 // In this example, our client wishes to track the latest 'block number'

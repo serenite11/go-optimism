@@ -27,12 +27,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/serenite11/op-geth/common/lru"
-	"github.com/serenite11/op-geth/common/mclock"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/p2p/enode"
-	"github.com/serenite11/op-geth/p2p/enr"
+	"github.com/serenite11/go-optimism/common/lru"
+	"github.com/serenite11/go-optimism/common/mclock"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/p2p/enode"
+	"github.com/serenite11/go-optimism/p2p/enr"
 	"golang.org/x/sync/singleflight"
 	"golang.org/x/time/rate"
 )

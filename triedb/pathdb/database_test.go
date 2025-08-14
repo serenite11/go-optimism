@@ -24,14 +24,14 @@ import (
 	"testing"
 
 	"github.com/holiman/uint256"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/rawdb"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/internal/testrand"
-	"github.com/serenite11/op-geth/rlp"
-	"github.com/serenite11/op-geth/trie"
-	"github.com/serenite11/op-geth/trie/trienode"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/rawdb"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/internal/testrand"
+	"github.com/serenite11/go-optimism/rlp"
+	"github.com/serenite11/go-optimism/trie"
+	"github.com/serenite11/go-optimism/trie/trienode"
 )
 
 func updateTrie(db *Database, stateRoot common.Hash, addrHash common.Hash, root common.Hash, dirties map[common.Hash][]byte) (common.Hash, *trienode.NodeSet) {

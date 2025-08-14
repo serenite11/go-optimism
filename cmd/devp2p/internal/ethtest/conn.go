@@ -25,12 +25,12 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/eth/protocols/eth"
-	"github.com/serenite11/op-geth/eth/protocols/snap"
-	"github.com/serenite11/op-geth/p2p"
-	"github.com/serenite11/op-geth/p2p/rlpx"
-	"github.com/serenite11/op-geth/rlp"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/eth/protocols/eth"
+	"github.com/serenite11/go-optimism/eth/protocols/snap"
+	"github.com/serenite11/go-optimism/p2p"
+	"github.com/serenite11/go-optimism/p2p/rlpx"
+	"github.com/serenite11/go-optimism/rlp"
 )
 
 var (

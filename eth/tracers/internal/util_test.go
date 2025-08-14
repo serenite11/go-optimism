@@ -19,7 +19,7 @@ package internal
 import (
 	"testing"
 
-	"github.com/serenite11/op-geth/core/vm"
+	"github.com/serenite11/go-optimism/core/vm"
 )
 
 func TestMemCopying(t *testing.T) {

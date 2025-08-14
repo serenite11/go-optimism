@@ -19,10 +19,10 @@ package main
 import (
 	"os"
 
-	"github.com/serenite11/op-geth/cmd/devp2p/internal/v4test"
-	"github.com/serenite11/op-geth/internal/flags"
-	"github.com/serenite11/op-geth/internal/utesting"
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/cmd/devp2p/internal/v4test"
+	"github.com/serenite11/go-optimism/internal/flags"
+	"github.com/serenite11/go-optimism/internal/utesting"
+	"github.com/serenite11/go-optimism/log"
 	"github.com/urfave/cli/v2"
 )
 

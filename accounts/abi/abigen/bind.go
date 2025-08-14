@@ -29,8 +29,8 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/serenite11/op-geth/accounts/abi"
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/accounts/abi"
+	"github.com/serenite11/go-optimism/log"
 )
 
 func isKeyWord(arg string) bool {

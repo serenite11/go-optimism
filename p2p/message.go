@@ -24,9 +24,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/serenite11/op-geth/event"
-	"github.com/serenite11/op-geth/p2p/enode"
-	"github.com/serenite11/op-geth/rlp"
+	"github.com/serenite11/go-optimism/event"
+	"github.com/serenite11/go-optimism/p2p/enode"
+	"github.com/serenite11/go-optimism/rlp"
 )
 
 // Msg defines the structure of a p2p message.

@@ -16,7 +16,7 @@
 
 package state
 
-import "github.com/serenite11/op-geth/metrics"
+import "github.com/serenite11/go-optimism/metrics"
 
 var (
 	accountReadMeters        = metrics.NewRegisteredMeter("state/read/account", nil)

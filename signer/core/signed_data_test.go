@@ -27,13 +27,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/serenite11/op-geth/accounts/keystore"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/common/math"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/signer/core"
-	"github.com/serenite11/op-geth/signer/core/apitypes"
+	"github.com/serenite11/go-optimism/accounts/keystore"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/common/math"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/signer/core"
+	"github.com/serenite11/go-optimism/signer/core/apitypes"
 )
 
 var typesStandard = apitypes.Types{

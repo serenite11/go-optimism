@@ -24,14 +24,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/eth"
-	"github.com/serenite11/op-geth/eth/catalyst"
-	"github.com/serenite11/op-geth/eth/ethconfig"
-	"github.com/serenite11/op-geth/internal/utesting"
-	"github.com/serenite11/op-geth/node"
-	"github.com/serenite11/op-geth/p2p"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/eth"
+	"github.com/serenite11/go-optimism/eth/catalyst"
+	"github.com/serenite11/go-optimism/eth/ethconfig"
+	"github.com/serenite11/go-optimism/internal/utesting"
+	"github.com/serenite11/go-optimism/node"
+	"github.com/serenite11/go-optimism/p2p"
 )
 
 func makeJWTSecret(t *testing.T) (string, [32]byte, error) {

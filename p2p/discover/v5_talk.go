@@ -22,9 +22,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/p2p/discover/v5wire"
-	"github.com/serenite11/op-geth/p2p/enode"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/p2p/discover/v5wire"
+	"github.com/serenite11/go-optimism/p2p/enode"
 )
 
 // This is a limit for the number of concurrent talk requests.

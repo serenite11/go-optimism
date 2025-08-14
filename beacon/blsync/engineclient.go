@@ -22,13 +22,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/serenite11/op-geth/beacon/engine"
-	"github.com/serenite11/op-geth/beacon/params"
-	"github.com/serenite11/op-geth/beacon/types"
-	"github.com/serenite11/op-geth/common"
-	ctypes "github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/rpc"
+	"github.com/serenite11/go-optimism/beacon/engine"
+	"github.com/serenite11/go-optimism/beacon/params"
+	"github.com/serenite11/go-optimism/beacon/types"
+	"github.com/serenite11/go-optimism/common"
+	ctypes "github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/rpc"
 )
 
 type engineClient struct {

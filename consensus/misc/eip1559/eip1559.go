@@ -23,10 +23,10 @@ import (
 	gomath "math"
 	"math/big"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/consensus/misc"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/consensus/misc"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/params"
 )
 
 // VerifyEIP1559Header verifies some header attributes which were changed in EIP-1559,

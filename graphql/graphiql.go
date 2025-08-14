@@ -27,8 +27,8 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/serenite11/op-geth/graphql/internal/graphiql"
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/graphql/internal/graphiql"
+	"github.com/serenite11/go-optimism/log"
 )
 
 // GraphiQL is an in-browser IDE for exploring GraphiQL APIs.

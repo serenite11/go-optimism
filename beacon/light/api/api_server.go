@@ -19,11 +19,11 @@ package api
 import (
 	"reflect"
 
-	"github.com/serenite11/op-geth/beacon/light/request"
-	"github.com/serenite11/op-geth/beacon/light/sync"
-	"github.com/serenite11/op-geth/beacon/types"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/beacon/light/request"
+	"github.com/serenite11/go-optimism/beacon/light/sync"
+	"github.com/serenite11/go-optimism/beacon/types"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/log"
 )
 
 // ApiServer is a wrapper around BeaconLightApi that implements request.requestServer.

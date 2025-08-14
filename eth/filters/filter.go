@@ -24,12 +24,12 @@ import (
 	"slices"
 	"time"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/filtermaps"
-	"github.com/serenite11/op-geth/core/history"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/rpc"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/filtermaps"
+	"github.com/serenite11/go-optimism/core/history"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/rpc"
 )
 
 // Filter can be used to retrieve and filter logs.

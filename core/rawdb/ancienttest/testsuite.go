@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/serenite11/op-geth/ethdb"
-	"github.com/serenite11/op-geth/internal/testrand"
+	"github.com/serenite11/go-optimism/ethdb"
+	"github.com/serenite11/go-optimism/internal/testrand"
 )
 
 // TestAncientSuite runs a suite of tests against an ancient database

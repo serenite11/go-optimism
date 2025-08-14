@@ -24,11 +24,11 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/serenite11/op-geth/accounts"
-	"github.com/serenite11/op-geth/accounts/keystore"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/math"
-	"github.com/serenite11/op-geth/crypto"
+	"github.com/serenite11/go-optimism/accounts"
+	"github.com/serenite11/go-optimism/accounts/keystore"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/math"
+	"github.com/serenite11/go-optimism/crypto"
 )
 
 // UIServerAPI implements methods Clef provides for a UI to query, in the bidirectional communication

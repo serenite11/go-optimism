@@ -25,17 +25,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/consensus/ethash"
-	"github.com/serenite11/op-geth/core"
-	"github.com/serenite11/op-geth/core/filtermaps"
-	"github.com/serenite11/op-geth/core/rawdb"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/ethdb"
-	"github.com/serenite11/op-geth/event"
-	"github.com/serenite11/op-geth/internal/ethapi"
-	"github.com/serenite11/op-geth/params"
-	"github.com/serenite11/op-geth/rpc"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/consensus/ethash"
+	"github.com/serenite11/go-optimism/core"
+	"github.com/serenite11/go-optimism/core/filtermaps"
+	"github.com/serenite11/go-optimism/core/rawdb"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/ethdb"
+	"github.com/serenite11/go-optimism/event"
+	"github.com/serenite11/go-optimism/internal/ethapi"
+	"github.com/serenite11/go-optimism/params"
+	"github.com/serenite11/go-optimism/rpc"
 )
 
 type testBackend struct {

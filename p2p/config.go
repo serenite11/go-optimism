@@ -21,11 +21,11 @@ import (
 	"encoding"
 	"fmt"
 
-	"github.com/serenite11/op-geth/common/mclock"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/p2p/enode"
-	"github.com/serenite11/op-geth/p2p/nat"
-	"github.com/serenite11/op-geth/p2p/netutil"
+	"github.com/serenite11/go-optimism/common/mclock"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/p2p/enode"
+	"github.com/serenite11/go-optimism/p2p/nat"
+	"github.com/serenite11/go-optimism/p2p/netutil"
 )
 
 //go:generate go run github.com/fjl/gencodec -type Config -field-override configMarshaling -formats toml -out config_toml.go

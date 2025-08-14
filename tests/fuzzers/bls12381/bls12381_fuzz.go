@@ -30,7 +30,7 @@ import (
 	gnark "github.com/consensys/gnark-crypto/ecc/bls12-381"
 	"github.com/consensys/gnark-crypto/ecc/bls12-381/fp"
 	"github.com/consensys/gnark-crypto/ecc/bls12-381/fr"
-	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/go-optimism/common"
 	blst "github.com/supranational/blst/bindings/go"
 )
 

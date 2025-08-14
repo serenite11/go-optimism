@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/serenite11/op-geth/common/hexutil"
+	"github.com/serenite11/go-optimism/common/hexutil"
 	"github.com/stretchr/testify/assert"
 )
 

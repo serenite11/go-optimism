@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"math/big"
 
-	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/go-optimism/common"
 )
 
 // LegacyTx is the transaction data of the original Ethereum transactions.

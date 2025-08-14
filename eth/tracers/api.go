@@ -28,22 +28,22 @@ import (
 	"sync"
 	"time"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/consensus"
-	"github.com/serenite11/op-geth/core"
-	"github.com/serenite11/op-geth/core/rawdb"
-	"github.com/serenite11/op-geth/core/state"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/core/vm"
-	"github.com/serenite11/op-geth/eth/tracers/logger"
-	"github.com/serenite11/op-geth/ethdb"
-	"github.com/serenite11/op-geth/internal/ethapi"
-	"github.com/serenite11/op-geth/internal/ethapi/override"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/params"
-	"github.com/serenite11/op-geth/rlp"
-	"github.com/serenite11/op-geth/rpc"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/consensus"
+	"github.com/serenite11/go-optimism/core"
+	"github.com/serenite11/go-optimism/core/rawdb"
+	"github.com/serenite11/go-optimism/core/state"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/core/vm"
+	"github.com/serenite11/go-optimism/eth/tracers/logger"
+	"github.com/serenite11/go-optimism/ethdb"
+	"github.com/serenite11/go-optimism/internal/ethapi"
+	"github.com/serenite11/go-optimism/internal/ethapi/override"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/params"
+	"github.com/serenite11/go-optimism/rlp"
+	"github.com/serenite11/go-optimism/rpc"
 )
 
 const (
@@ -706,7 +706,7 @@ func (api *API) traceBlockParallel(ctx context.Context, block *types.Block, stat
 				// Reconstruct the block context for each transaction
 				// as the GetHash function of BlockContext is not safe for
 				// concurrent use.
-				// See: https://github.com/serenite11/op-geth/issues/29114
+				// See: https://github.com/serenite11/go-optimism/issues/29114
 				blockCtx := core.NewEVMBlockContext(block.Header(), api.chainContext(ctx), nil, api.backend.ChainConfig(), task.statedb)
 				res, err := api.traceTx(ctx, txs[task.index], msg, txctx, blockCtx, task.statedb, config, nil)
 				if err != nil {

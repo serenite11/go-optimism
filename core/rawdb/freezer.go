@@ -26,9 +26,9 @@ import (
 	"sync/atomic"
 
 	"github.com/gofrs/flock"
-	"github.com/serenite11/op-geth/ethdb"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/metrics"
+	"github.com/serenite11/go-optimism/ethdb"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/metrics"
 )
 
 var (

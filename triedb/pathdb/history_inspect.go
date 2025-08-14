@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/ethdb"
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/ethdb"
+	"github.com/serenite11/go-optimism/log"
 )
 
 // HistoryStats wraps the history inspection statistics.

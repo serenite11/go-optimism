@@ -25,11 +25,11 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/p2p"
-	"github.com/serenite11/op-geth/rpc"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/p2p"
+	"github.com/serenite11/go-optimism/rpc"
 )
 
 const (

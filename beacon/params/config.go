@@ -26,10 +26,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/serenite11/op-geth/beacon/merkle"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/beacon/merkle"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/log"
 	"gopkg.in/yaml.v3"
 )
 

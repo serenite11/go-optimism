@@ -21,7 +21,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/go-optimism/common"
 )
 
 // transientStorage is a representation of EIP-1153 "Transient Storage".

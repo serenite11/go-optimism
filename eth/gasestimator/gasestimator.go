@@ -23,14 +23,14 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core"
-	"github.com/serenite11/op-geth/core/state"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/core/vm"
-	"github.com/serenite11/op-geth/internal/ethapi/override"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core"
+	"github.com/serenite11/go-optimism/core/state"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/core/vm"
+	"github.com/serenite11/go-optimism/internal/ethapi/override"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/params"
 )
 
 // Options are the contextual parameters to execute the requested call.

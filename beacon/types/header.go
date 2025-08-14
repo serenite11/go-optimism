@@ -22,9 +22,9 @@ import (
 	"encoding/binary"
 
 	zrntcommon "github.com/protolambda/zrnt/eth2/beacon/common"
-	"github.com/serenite11/op-geth/beacon/merkle"
-	"github.com/serenite11/op-geth/beacon/params"
-	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/go-optimism/beacon/merkle"
+	"github.com/serenite11/go-optimism/beacon/params"
+	"github.com/serenite11/go-optimism/common"
 )
 
 //go:generate go run github.com/fjl/gencodec -type Header -field-override headerMarshaling -out gen_header_json.go

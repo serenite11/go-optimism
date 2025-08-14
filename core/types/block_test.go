@@ -23,12 +23,12 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/math"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/internal/blocktest"
-	"github.com/serenite11/op-geth/params"
-	"github.com/serenite11/op-geth/rlp"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/math"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/internal/blocktest"
+	"github.com/serenite11/go-optimism/params"
+	"github.com/serenite11/go-optimism/rlp"
 )
 
 // from bcValidBlockTest.json, "SimpleTx"

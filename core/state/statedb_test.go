@@ -31,18 +31,18 @@ import (
 	"testing/quick"
 
 	"github.com/holiman/uint256"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/rawdb"
-	"github.com/serenite11/op-geth/core/state/snapshot"
-	"github.com/serenite11/op-geth/core/tracing"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/rlp"
-	"github.com/serenite11/op-geth/trie"
-	"github.com/serenite11/op-geth/trie/trienode"
-	"github.com/serenite11/op-geth/triedb"
-	"github.com/serenite11/op-geth/triedb/hashdb"
-	"github.com/serenite11/op-geth/triedb/pathdb"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/rawdb"
+	"github.com/serenite11/go-optimism/core/state/snapshot"
+	"github.com/serenite11/go-optimism/core/tracing"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/rlp"
+	"github.com/serenite11/go-optimism/trie"
+	"github.com/serenite11/go-optimism/trie/trienode"
+	"github.com/serenite11/go-optimism/triedb"
+	"github.com/serenite11/go-optimism/triedb/hashdb"
+	"github.com/serenite11/go-optimism/triedb/pathdb"
 )
 
 // Tests that updating a state trie does not leak any database writes prior to
@@ -163,7 +163,7 @@ func TestIntermediateLeaks(t *testing.T) {
 
 // TestCopy tests that copying a StateDB object indeed makes the original and
 // the copy independent of each other. This test is a regression test against
-// https://github.com/serenite11/op-geth/pull/15549.
+// https://github.com/serenite11/go-optimism/pull/15549.
 func TestCopy(t *testing.T) {
 	// Create a random state test to copy and modify "independently"
 	orig, _ := New(types.EmptyRootHash, NewDatabaseForTesting())
@@ -712,7 +712,7 @@ func TestTouchDelete(t *testing.T) {
 }
 
 // TestCopyOfCopy tests that modified objects are carried over to the copy, and the copy of the copy.
-// See https://github.com/serenite11/op-geth/pull/15225#issuecomment-380191512
+// See https://github.com/serenite11/go-optimism/pull/15225#issuecomment-380191512
 func TestCopyOfCopy(t *testing.T) {
 	state, _ := New(types.EmptyRootHash, NewDatabaseForTesting())
 	addr := common.HexToAddress("aaaa")
@@ -729,7 +729,7 @@ func TestCopyOfCopy(t *testing.T) {
 // Tests a regression where committing a copy lost some internal meta information,
 // leading to corrupted subsequent copies.
 //
-// See https://github.com/serenite11/op-geth/issues/20106.
+// See https://github.com/serenite11/go-optimism/issues/20106.
 func TestCopyCommitCopy(t *testing.T) {
 	tdb := NewDatabaseForTesting()
 	state, _ := New(types.EmptyRootHash, tdb)
@@ -803,7 +803,7 @@ func TestCopyCommitCopy(t *testing.T) {
 // Tests a regression where committing a copy lost some internal meta information,
 // leading to corrupted subsequent copies.
 //
-// See https://github.com/serenite11/op-geth/issues/20106.
+// See https://github.com/serenite11/go-optimism/issues/20106.
 func TestCopyCopyCommitCopy(t *testing.T) {
 	state, _ := New(types.EmptyRootHash, NewDatabaseForTesting())
 

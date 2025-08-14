@@ -19,9 +19,9 @@ package vm
 import (
 	gomath "math"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/math"
-	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/math"
+	"github.com/serenite11/go-optimism/params"
 )
 
 func gasSStore4762(evm *EVM, contract *Contract, stack *Stack, mem *Memory, memorySize uint64) (uint64, error) {

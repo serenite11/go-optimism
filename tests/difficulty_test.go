@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/go-optimism/params"
 )
 
 var (

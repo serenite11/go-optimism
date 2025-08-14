@@ -22,9 +22,9 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/serenite11/op-geth/p2p"
-	"github.com/serenite11/op-geth/p2p/nat"
-	"github.com/serenite11/op-geth/rpc"
+	"github.com/serenite11/go-optimism/p2p"
+	"github.com/serenite11/go-optimism/p2p/nat"
+	"github.com/serenite11/go-optimism/rpc"
 )
 
 const (

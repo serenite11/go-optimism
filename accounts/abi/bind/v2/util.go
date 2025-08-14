@@ -21,10 +21,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/serenite11/op-geth"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/log"
 )
 
 // WaitMined waits for tx to be mined on the blockchain.

@@ -20,13 +20,13 @@ import (
 	"math/big"
 
 	"github.com/holiman/uint256"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/consensus"
-	"github.com/serenite11/op-geth/consensus/misc/eip4844"
-	"github.com/serenite11/op-geth/core/tracing"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/core/vm"
-	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/consensus"
+	"github.com/serenite11/go-optimism/consensus/misc/eip4844"
+	"github.com/serenite11/go-optimism/core/tracing"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/core/vm"
+	"github.com/serenite11/go-optimism/params"
 )
 
 // ChainContext supports retrieving headers and consensus parameters from the

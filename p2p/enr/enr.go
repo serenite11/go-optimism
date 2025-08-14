@@ -40,7 +40,7 @@ import (
 	"io"
 	"sort"
 
-	"github.com/serenite11/op-geth/rlp"
+	"github.com/serenite11/go-optimism/rlp"
 )
 
 const SizeLimit = 300 // maximum encoded size of a node record in bytes

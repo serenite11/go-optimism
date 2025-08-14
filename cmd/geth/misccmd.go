@@ -22,7 +22,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/serenite11/op-geth/internal/version"
+	"github.com/serenite11/go-optimism/internal/version"
 	"github.com/urfave/cli/v2"
 )
 

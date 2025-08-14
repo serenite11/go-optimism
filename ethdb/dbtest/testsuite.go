@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/serenite11/op-geth/ethdb"
+	"github.com/serenite11/go-optimism/ethdb"
 )
 
 // TestDatabaseSuite runs a suite of tests against a KeyValueStore database

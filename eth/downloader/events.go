@@ -16,7 +16,7 @@
 
 package downloader
 
-import "github.com/serenite11/op-geth/core/types"
+import "github.com/serenite11/go-optimism/core/types"
 
 type DoneEvent struct {
 	Latest *types.Header

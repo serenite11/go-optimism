@@ -30,7 +30,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/serenite11/op-geth/internal/reexec"
+	"github.com/serenite11/go-optimism/internal/reexec"
 )
 
 func runSelf(args ...string) ([]byte, error) {

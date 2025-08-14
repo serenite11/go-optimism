@@ -17,7 +17,7 @@
 package trie
 
 import (
-	"github.com/serenite11/op-geth/rlp"
+	"github.com/serenite11/go-optimism/rlp"
 )
 
 func nodeToBytes(n node) []byte {

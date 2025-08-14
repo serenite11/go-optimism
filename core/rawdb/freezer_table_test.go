@@ -28,7 +28,7 @@ import (
 	"testing/quick"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/serenite11/op-geth/metrics"
+	"github.com/serenite11/go-optimism/metrics"
 	"github.com/stretchr/testify/require"
 )
 

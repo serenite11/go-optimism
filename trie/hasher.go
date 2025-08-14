@@ -20,8 +20,8 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/rlp"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/rlp"
 )
 
 // hasher is a type used for the trie Hash operation. A hasher has some

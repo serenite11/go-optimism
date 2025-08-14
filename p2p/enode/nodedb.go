@@ -26,8 +26,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/serenite11/op-geth/p2p/enr"
-	"github.com/serenite11/op-geth/rlp"
+	"github.com/serenite11/go-optimism/p2p/enr"
+	"github.com/serenite11/go-optimism/rlp"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/errors"
 	"github.com/syndtr/goleveldb/leveldb/iterator"

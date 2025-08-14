@@ -17,8 +17,8 @@
 package ethtest
 
 import (
-	"github.com/serenite11/op-geth/p2p"
-	"github.com/serenite11/op-geth/rlp"
+	"github.com/serenite11/go-optimism/p2p"
+	"github.com/serenite11/go-optimism/rlp"
 )
 
 // Unexported devp2p message codes from p2p/peer.go.

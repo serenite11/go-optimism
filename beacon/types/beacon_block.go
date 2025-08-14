@@ -25,8 +25,8 @@ import (
 	"github.com/protolambda/zrnt/eth2/configs"
 	"github.com/protolambda/ztyp/codec"
 	"github.com/protolambda/ztyp/tree"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/types"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/types"
 
 	// beacon forks
 	"github.com/protolambda/zrnt/eth2/beacon/capella"

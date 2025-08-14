@@ -25,10 +25,10 @@ import (
 	"math/big"
 
 	"github.com/golang/snappy"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/internal/era/e2store"
-	"github.com/serenite11/op-geth/rlp"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/internal/era/e2store"
+	"github.com/serenite11/go-optimism/rlp"
 )
 
 // Builder is used to create Era1 archives of block data.

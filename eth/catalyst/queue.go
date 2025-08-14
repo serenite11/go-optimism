@@ -20,10 +20,10 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/serenite11/op-geth/beacon/engine"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/miner"
+	"github.com/serenite11/go-optimism/beacon/engine"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/miner"
 )
 
 // maxTrackedPayloads is the maximum number of prepared payloads the execution

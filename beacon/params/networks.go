@@ -19,7 +19,7 @@ package params
 import (
 	_ "embed"
 
-	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/go-optimism/common"
 )
 
 //go:embed checkpoint_mainnet.hex

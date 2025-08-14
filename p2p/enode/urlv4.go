@@ -26,9 +26,9 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/serenite11/op-geth/common/math"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/p2p/enr"
+	"github.com/serenite11/go-optimism/common/math"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/p2p/enr"
 )
 
 var (

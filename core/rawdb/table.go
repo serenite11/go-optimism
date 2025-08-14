@@ -17,7 +17,7 @@
 package rawdb
 
 import (
-	"github.com/serenite11/op-geth/ethdb"
+	"github.com/serenite11/go-optimism/ethdb"
 )
 
 // table is a wrapper around a database that prefixes each key access with a pre-

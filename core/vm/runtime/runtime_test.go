@@ -25,21 +25,21 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/serenite11/op-geth/accounts/abi"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/consensus"
-	"github.com/serenite11/op-geth/core"
-	"github.com/serenite11/op-geth/core/state"
-	"github.com/serenite11/op-geth/core/tracing"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/core/vm"
-	"github.com/serenite11/op-geth/core/vm/program"
-	"github.com/serenite11/op-geth/eth/tracers"
-	"github.com/serenite11/op-geth/eth/tracers/logger"
-	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/go-optimism/accounts/abi"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/consensus"
+	"github.com/serenite11/go-optimism/core"
+	"github.com/serenite11/go-optimism/core/state"
+	"github.com/serenite11/go-optimism/core/tracing"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/core/vm"
+	"github.com/serenite11/go-optimism/core/vm/program"
+	"github.com/serenite11/go-optimism/eth/tracers"
+	"github.com/serenite11/go-optimism/eth/tracers/logger"
+	"github.com/serenite11/go-optimism/params"
 
 	// force-load js tracers to trigger registration
-	_ "github.com/serenite11/op-geth/eth/tracers/js"
+	_ "github.com/serenite11/go-optimism/eth/tracers/js"
 )
 
 func TestDefaults(t *testing.T) {
@@ -601,7 +601,7 @@ func TestEip2929Cases(t *testing.T) {
 
 // TestColdAccountAccessCost test that the cold account access cost is reported
 // correctly
-// see: https://github.com/serenite11/op-geth/issues/22649
+// see: https://github.com/serenite11/go-optimism/issues/22649
 func TestColdAccountAccessCost(t *testing.T) {
 	for i, tc := range []struct {
 		code []byte

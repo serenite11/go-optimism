@@ -7,8 +7,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/hexutil"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/hexutil"
 )
 
 var _ = (*headerMarshaling)(nil)

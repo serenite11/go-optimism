@@ -17,8 +17,8 @@
 package runtime
 
 import (
-	"github.com/serenite11/op-geth/core"
-	"github.com/serenite11/op-geth/core/vm"
+	"github.com/serenite11/go-optimism/core"
+	"github.com/serenite11/go-optimism/core/vm"
 )
 
 func NewEnv(cfg *Config) *vm.EVM {

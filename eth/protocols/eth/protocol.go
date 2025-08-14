@@ -22,10 +22,10 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/forkid"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/rlp"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/forkid"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/rlp"
 )
 
 // Constants to match up protocol versions and messages

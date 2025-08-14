@@ -19,7 +19,7 @@ package params
 import (
 	"math/big"
 
-	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/go-optimism/common"
 )
 
 var (

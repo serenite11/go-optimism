@@ -31,8 +31,8 @@ import (
 	"github.com/aws/aws-sdk-go-v2/credentials"
 	"github.com/aws/aws-sdk-go-v2/service/route53"
 	"github.com/aws/aws-sdk-go-v2/service/route53/types"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/p2p/dnsdisc"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/p2p/dnsdisc"
 	"github.com/urfave/cli/v2"
 )
 

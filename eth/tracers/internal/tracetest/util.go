@@ -22,16 +22,16 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/math"
-	"github.com/serenite11/op-geth/consensus/misc/eip4844"
-	"github.com/serenite11/op-geth/core"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/core/vm"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/math"
+	"github.com/serenite11/go-optimism/consensus/misc/eip4844"
+	"github.com/serenite11/go-optimism/core"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/core/vm"
 
 	// Force-load native and js packages, to trigger registration
-	_ "github.com/serenite11/op-geth/eth/tracers/js"
-	_ "github.com/serenite11/op-geth/eth/tracers/native"
+	_ "github.com/serenite11/go-optimism/eth/tracers/js"
+	_ "github.com/serenite11/go-optimism/eth/tracers/native"
 )
 
 // camel converts a snake cased input string into a camel cased output.

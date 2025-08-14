@@ -24,8 +24,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/serenite11/op-geth/common/math"
-	"github.com/serenite11/op-geth/crypto/secp256k1"
+	"github.com/serenite11/go-optimism/common/math"
+	"github.com/serenite11/go-optimism/crypto/secp256k1"
 )
 
 // Ecrecover returns the uncompressed public key that created the given signature.

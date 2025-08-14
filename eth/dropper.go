@@ -22,11 +22,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/mclock"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/metrics"
-	"github.com/serenite11/op-geth/p2p"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/mclock"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/metrics"
+	"github.com/serenite11/go-optimism/p2p"
 )
 
 const (

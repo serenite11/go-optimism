@@ -22,8 +22,8 @@ import (
 	"errors"
 	"reflect"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/hexutil"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/hexutil"
 )
 
 // Value represents either a 32 byte leaf value or hash node in a binary merkle tree/partial proof.

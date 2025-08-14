@@ -26,12 +26,12 @@ import (
 	"time"
 
 	"github.com/karalabe/hid"
-	"github.com/serenite11/op-geth"
-	"github.com/serenite11/op-geth/accounts"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism"
+	"github.com/serenite11/go-optimism/accounts"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/log"
 )
 
 // Maximum time between wallet health checks to detect USB unplugs.

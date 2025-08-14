@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/go-optimism/common"
 )
 
 func BenchmarkCutOriginal(b *testing.B) {

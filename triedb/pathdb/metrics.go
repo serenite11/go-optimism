@@ -16,7 +16,7 @@
 
 package pathdb
 
-import "github.com/serenite11/op-geth/metrics"
+import "github.com/serenite11/go-optimism/metrics"
 
 var (
 	cleanNodeHitMeter   = metrics.NewRegisteredMeter("pathdb/clean/node/hit", nil)

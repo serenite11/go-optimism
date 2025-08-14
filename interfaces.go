@@ -22,8 +22,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/types"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/types"
 )
 
 // NotFound is returned by API methods if the requested item does not exist.

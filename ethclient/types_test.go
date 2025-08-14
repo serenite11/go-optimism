@@ -22,8 +22,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/serenite11/op-geth"
-	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/go-optimism"
+	"github.com/serenite11/go-optimism/common"
 )
 
 func TestToFilterArg(t *testing.T) {

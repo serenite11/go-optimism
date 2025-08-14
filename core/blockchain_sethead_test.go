@@ -27,17 +27,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/consensus/ethash"
-	"github.com/serenite11/op-geth/core/rawdb"
-	"github.com/serenite11/op-geth/core/state"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/core/vm"
-	"github.com/serenite11/op-geth/ethdb/pebble"
-	"github.com/serenite11/op-geth/params"
-	"github.com/serenite11/op-geth/triedb"
-	"github.com/serenite11/op-geth/triedb/hashdb"
-	"github.com/serenite11/op-geth/triedb/pathdb"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/consensus/ethash"
+	"github.com/serenite11/go-optimism/core/rawdb"
+	"github.com/serenite11/go-optimism/core/state"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/core/vm"
+	"github.com/serenite11/go-optimism/ethdb/pebble"
+	"github.com/serenite11/go-optimism/params"
+	"github.com/serenite11/go-optimism/triedb"
+	"github.com/serenite11/go-optimism/triedb/hashdb"
+	"github.com/serenite11/go-optimism/triedb/pathdb"
 )
 
 // rewindTest is a test case for chain rollback upon user request.

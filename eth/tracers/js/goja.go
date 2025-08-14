@@ -26,17 +26,17 @@ import (
 
 	"github.com/dop251/goja"
 	"github.com/holiman/uint256"
-	"github.com/serenite11/op-geth/core/tracing"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/eth/tracers"
-	"github.com/serenite11/op-geth/eth/tracers/internal"
-	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/go-optimism/core/tracing"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/eth/tracers"
+	"github.com/serenite11/go-optimism/eth/tracers/internal"
+	"github.com/serenite11/go-optimism/params"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/core/vm"
-	"github.com/serenite11/op-geth/crypto"
-	jsassets "github.com/serenite11/op-geth/eth/tracers/js/internal/tracers"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/core/vm"
+	"github.com/serenite11/go-optimism/crypto"
+	jsassets "github.com/serenite11/go-optimism/eth/tracers/js/internal/tracers"
 )
 
 var assetTracers = make(map[string]string)

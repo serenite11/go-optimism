@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/params"
 )
 
 // precompiledTest defines the input/output pairs for precompiled contract tests.

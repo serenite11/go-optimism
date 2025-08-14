@@ -5,13 +5,13 @@ package ethconfig
 import (
 	"time"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core"
-	"github.com/serenite11/op-geth/core/history"
-	"github.com/serenite11/op-geth/core/txpool/blobpool"
-	"github.com/serenite11/op-geth/core/txpool/legacypool"
-	"github.com/serenite11/op-geth/eth/gasprice"
-	"github.com/serenite11/op-geth/miner"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core"
+	"github.com/serenite11/go-optimism/core/history"
+	"github.com/serenite11/go-optimism/core/txpool/blobpool"
+	"github.com/serenite11/go-optimism/core/txpool/legacypool"
+	"github.com/serenite11/go-optimism/eth/gasprice"
+	"github.com/serenite11/go-optimism/miner"
 )
 
 // MarshalTOML marshals as TOML.

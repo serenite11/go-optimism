@@ -1,7 +1,7 @@
 package superchain
 
 import (
-	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/go-optimism/common"
 )
 
 type ChainConfig struct {

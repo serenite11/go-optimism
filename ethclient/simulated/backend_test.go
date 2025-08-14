@@ -26,12 +26,12 @@ import (
 	"time"
 
 	"github.com/holiman/uint256"
-	"github.com/serenite11/op-geth/accounts/abi/bind"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/crypto/kzg4844"
-	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/go-optimism/accounts/abi/bind"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/crypto/kzg4844"
+	"github.com/serenite11/go-optimism/params"
 	"go.uber.org/goleak"
 )
 

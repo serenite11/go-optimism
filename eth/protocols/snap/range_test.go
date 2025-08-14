@@ -19,7 +19,7 @@ package snap
 import (
 	"testing"
 
-	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/go-optimism/common"
 )
 
 // Tests that given a starting hash and a density, the hash ranger can correctly

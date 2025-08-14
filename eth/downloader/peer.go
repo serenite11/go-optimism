@@ -24,11 +24,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/eth/protocols/eth"
-	"github.com/serenite11/op-geth/event"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/p2p/msgrate"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/eth/protocols/eth"
+	"github.com/serenite11/go-optimism/event"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/p2p/msgrate"
 )
 
 const (

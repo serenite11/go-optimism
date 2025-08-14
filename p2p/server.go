@@ -31,15 +31,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/mclock"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/event"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/p2p/discover"
-	"github.com/serenite11/op-geth/p2p/enode"
-	"github.com/serenite11/op-geth/p2p/enr"
-	"github.com/serenite11/op-geth/p2p/netutil"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/mclock"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/event"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/p2p/discover"
+	"github.com/serenite11/go-optimism/p2p/enode"
+	"github.com/serenite11/go-optimism/p2p/enr"
+	"github.com/serenite11/go-optimism/p2p/netutil"
 )
 
 const (

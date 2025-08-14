@@ -25,10 +25,10 @@ import (
 	"slices"
 
 	"github.com/ethereum/go-verkle"
-	"github.com/serenite11/op-geth/cmd/utils"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/rawdb"
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/cmd/utils"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/rawdb"
+	"github.com/serenite11/go-optimism/log"
 	"github.com/urfave/cli/v2"
 )
 

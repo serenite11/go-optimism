@@ -16,7 +16,7 @@
 
 package snapshot
 
-import "github.com/serenite11/op-geth/metrics"
+import "github.com/serenite11/go-optimism/metrics"
 
 // Metrics in generation
 var (

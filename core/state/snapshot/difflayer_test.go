@@ -23,9 +23,9 @@ import (
 	"testing"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/ethdb/memorydb"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/ethdb/memorydb"
 )
 
 func copyAccounts(accounts map[common.Hash][]byte) map[common.Hash][]byte {

@@ -25,7 +25,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/serenite11/op-geth/rpc"
+	"github.com/serenite11/go-optimism/rpc"
 	"github.com/stretchr/testify/assert"
 )
 

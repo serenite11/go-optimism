@@ -22,8 +22,8 @@ import (
 
 	zrntcommon "github.com/protolambda/zrnt/eth2/beacon/common"
 	"github.com/protolambda/ztyp/tree"
-	"github.com/serenite11/op-geth/beacon/merkle"
-	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/go-optimism/beacon/merkle"
+	"github.com/serenite11/go-optimism/common"
 
 	// beacon chain forks
 	"github.com/protolambda/zrnt/eth2/beacon/capella"

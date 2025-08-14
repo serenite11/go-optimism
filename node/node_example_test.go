@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/serenite11/op-geth/node"
+	"github.com/serenite11/go-optimism/node"
 )
 
 // SampleLifecycle is a trivial network service that can be attached to a node for

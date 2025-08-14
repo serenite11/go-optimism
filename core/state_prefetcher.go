@@ -19,10 +19,10 @@ package core
 import (
 	"sync/atomic"
 
-	"github.com/serenite11/op-geth/core/state"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/core/vm"
-	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/go-optimism/core/state"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/core/vm"
+	"github.com/serenite11/go-optimism/params"
 )
 
 // statePrefetcher is a basic Prefetcher, which blindly executes a block on top

@@ -25,10 +25,10 @@ import (
 	"time"
 
 	"github.com/dop251/goja"
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/console/prompt"
-	"github.com/serenite11/op-geth/internal/jsre"
-	"github.com/serenite11/op-geth/rpc"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/console/prompt"
+	"github.com/serenite11/go-optimism/internal/jsre"
+	"github.com/serenite11/go-optimism/rpc"
 )
 
 // bridge is a collection of JavaScript utility methods to bride the .js runtime

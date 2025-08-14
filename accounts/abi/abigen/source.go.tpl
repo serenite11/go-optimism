@@ -8,12 +8,12 @@ import (
 	"strings"
 	"errors"
 
-	ethereum "github.com/serenite11/op-geth"
-	"github.com/serenite11/op-geth/accounts/abi"
-	"github.com/serenite11/op-geth/accounts/abi/bind"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/event"
+	ethereum "github.com/serenite11/go-optimism"
+	"github.com/serenite11/go-optimism/accounts/abi"
+	"github.com/serenite11/go-optimism/accounts/abi/bind"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/event"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

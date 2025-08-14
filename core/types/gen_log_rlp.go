@@ -2,7 +2,7 @@
 
 package types
 
-import "github.com/serenite11/op-geth/rlp"
+import "github.com/serenite11/go-optimism/rlp"
 import "io"
 
 func (obj *Log) EncodeRLP(_w io.Writer) error {

@@ -27,18 +27,18 @@ import (
 	"time"
 
 	"github.com/holiman/uint256"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/rawdb"
-	"github.com/serenite11/op-geth/core/state/snapshot"
-	"github.com/serenite11/op-geth/core/stateless"
-	"github.com/serenite11/op-geth/core/tracing"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/params"
-	"github.com/serenite11/op-geth/trie"
-	"github.com/serenite11/op-geth/trie/trienode"
-	"github.com/serenite11/op-geth/trie/utils"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/rawdb"
+	"github.com/serenite11/go-optimism/core/state/snapshot"
+	"github.com/serenite11/go-optimism/core/stateless"
+	"github.com/serenite11/go-optimism/core/tracing"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/params"
+	"github.com/serenite11/go-optimism/trie"
+	"github.com/serenite11/go-optimism/trie/trienode"
+	"github.com/serenite11/go-optimism/trie/utils"
 )
 
 // TriesInMemory represents the number of layers that are kept in RAM.
@@ -211,7 +211,7 @@ func (s *StateDB) StartPrefetcher(namespace string, witness *stateless.Witness) 
 	//
 	// To prevent this, the account trie is always scheduled for prefetching once
 	// the prefetcher is constructed. For more details, see:
-	// https://github.com/serenite11/op-geth/issues/29880
+	// https://github.com/serenite11/go-optimism/issues/29880
 	s.prefetcher = newTriePrefetcher(s.db, s.originalRoot, namespace, witness == nil)
 	if err := s.prefetcher.prefetch(common.Hash{}, s.originalRoot, common.Address{}, nil, nil, false); err != nil {
 		log.Error("Failed to prefetch account trie", "root", s.originalRoot, "err", err)

@@ -26,8 +26,8 @@ import (
 	"fmt"
 
 	"github.com/google/uuid"
-	"github.com/serenite11/op-geth/accounts"
-	"github.com/serenite11/op-geth/crypto"
+	"github.com/serenite11/go-optimism/accounts"
+	"github.com/serenite11/go-optimism/crypto"
 	"golang.org/x/crypto/pbkdf2"
 )
 

@@ -22,10 +22,10 @@ import (
 	"math"
 	"sync"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/ethdb"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/rlp"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/ethdb"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/rlp"
 )
 
 // memoryTable is used to store a list of sequential items in memory.

@@ -26,12 +26,12 @@ import (
 	"slices"
 	"sync/atomic"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/consensus/misc/eip1559"
-	"github.com/serenite11/op-geth/consensus/misc/eip4844"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/rpc"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/consensus/misc/eip1559"
+	"github.com/serenite11/go-optimism/consensus/misc/eip4844"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/rpc"
 )
 
 var (

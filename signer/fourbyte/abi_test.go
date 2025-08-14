@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/serenite11/op-geth/accounts/abi"
-	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/go-optimism/accounts/abi"
+	"github.com/serenite11/go-optimism/common"
 )
 
 func verify(t *testing.T, jsondata, calldata string, exp []interface{}) {

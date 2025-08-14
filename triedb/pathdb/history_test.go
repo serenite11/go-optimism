@@ -22,12 +22,12 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/rawdb"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/ethdb"
-	"github.com/serenite11/op-geth/internal/testrand"
-	"github.com/serenite11/op-geth/rlp"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/rawdb"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/ethdb"
+	"github.com/serenite11/go-optimism/internal/testrand"
+	"github.com/serenite11/go-optimism/rlp"
 )
 
 // randomStateSet generates a random state change set.

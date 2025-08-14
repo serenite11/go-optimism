@@ -24,11 +24,11 @@ import (
 	"regexp"
 	"slices"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/rawdb"
-	"github.com/serenite11/op-geth/core/vm"
-	"github.com/serenite11/op-geth/internal/flags"
-	"github.com/serenite11/op-geth/tests"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/rawdb"
+	"github.com/serenite11/go-optimism/core/vm"
+	"github.com/serenite11/go-optimism/internal/flags"
+	"github.com/serenite11/go-optimism/tests"
 	"github.com/urfave/cli/v2"
 )
 

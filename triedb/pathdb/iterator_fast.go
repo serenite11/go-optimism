@@ -23,7 +23,7 @@ import (
 	"slices"
 	"sort"
 
-	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/go-optimism/common"
 )
 
 // weightedIterator is an iterator with an assigned weight. It is used to prioritise

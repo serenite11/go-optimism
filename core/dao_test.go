@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/serenite11/op-geth/consensus/ethash"
-	"github.com/serenite11/op-geth/core/rawdb"
-	"github.com/serenite11/op-geth/core/vm"
-	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/go-optimism/consensus/ethash"
+	"github.com/serenite11/go-optimism/core/rawdb"
+	"github.com/serenite11/go-optimism/core/vm"
+	"github.com/serenite11/go-optimism/params"
 )
 
 // Tests that DAO-fork enabled clients can properly filter out fork-commencing

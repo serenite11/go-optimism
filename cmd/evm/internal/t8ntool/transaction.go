@@ -24,13 +24,13 @@ import (
 	"os"
 	"strings"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/core"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/params"
-	"github.com/serenite11/op-geth/rlp"
-	"github.com/serenite11/op-geth/tests"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/core"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/params"
+	"github.com/serenite11/go-optimism/rlp"
+	"github.com/serenite11/go-optimism/tests"
 	"github.com/urfave/cli/v2"
 )
 

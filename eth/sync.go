@@ -17,9 +17,9 @@
 package eth
 
 import (
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/txpool"
-	"github.com/serenite11/op-geth/eth/protocols/eth"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/txpool"
+	"github.com/serenite11/go-optimism/eth/protocols/eth"
 )
 
 // syncTransactions starts sending all currently pending transactions to the given peer.

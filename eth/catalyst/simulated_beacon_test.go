@@ -23,16 +23,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/eth"
-	"github.com/serenite11/op-geth/eth/ethconfig"
-	"github.com/serenite11/op-geth/miner"
-	"github.com/serenite11/op-geth/node"
-	"github.com/serenite11/op-geth/p2p"
-	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/eth"
+	"github.com/serenite11/go-optimism/eth/ethconfig"
+	"github.com/serenite11/go-optimism/miner"
+	"github.com/serenite11/go-optimism/node"
+	"github.com/serenite11/go-optimism/p2p"
+	"github.com/serenite11/go-optimism/params"
 )
 
 func startSimulatedBeaconEthService(t *testing.T, genesis *core.Genesis, period uint64) (*node.Node, *eth.Ethereum, *SimulatedBeacon) {

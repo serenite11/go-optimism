@@ -26,14 +26,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/serenite11/op-geth/cmd/devp2p/internal/v4test"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/p2p/discover"
-	"github.com/serenite11/op-geth/p2p/enode"
-	"github.com/serenite11/op-geth/params"
-	"github.com/serenite11/op-geth/rpc"
+	"github.com/serenite11/go-optimism/cmd/devp2p/internal/v4test"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/p2p/discover"
+	"github.com/serenite11/go-optimism/p2p/enode"
+	"github.com/serenite11/go-optimism/params"
+	"github.com/serenite11/go-optimism/rpc"
 	"github.com/urfave/cli/v2"
 )
 

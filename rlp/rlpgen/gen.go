@@ -23,7 +23,7 @@ import (
 	"go/types"
 	"sort"
 
-	"github.com/serenite11/op-geth/rlp/internal/rlpstruct"
+	"github.com/serenite11/go-optimism/rlp/internal/rlpstruct"
 )
 
 // buildContext keeps the data needed for make*Op.

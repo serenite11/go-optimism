@@ -21,7 +21,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/serenite11/op-geth/rpc"
+	"github.com/serenite11/go-optimism/rpc"
 )
 
 // This example configures a HTTP-based RPC client with two options - one setting the

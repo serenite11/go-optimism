@@ -17,9 +17,9 @@
 package sync
 
 import (
-	"github.com/serenite11/op-geth/beacon/light/request"
-	"github.com/serenite11/op-geth/beacon/types"
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/beacon/light/request"
+	"github.com/serenite11/go-optimism/beacon/types"
+	"github.com/serenite11/go-optimism/log"
 )
 
 type headTracker interface {

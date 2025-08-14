@@ -29,12 +29,12 @@ import (
 	"time"
 
 	"github.com/donovanhide/eventsource"
-	"github.com/serenite11/op-geth/beacon/merkle"
-	"github.com/serenite11/op-geth/beacon/params"
-	"github.com/serenite11/op-geth/beacon/types"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/beacon/merkle"
+	"github.com/serenite11/go-optimism/beacon/params"
+	"github.com/serenite11/go-optimism/beacon/types"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/log"
 )
 
 var (

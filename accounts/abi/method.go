@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/serenite11/op-geth/crypto"
+	"github.com/serenite11/go-optimism/crypto"
 )
 
 // FunctionType represents different types of functions a contract might have.

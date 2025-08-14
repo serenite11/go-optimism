@@ -28,11 +28,11 @@ import (
 	"time"
 
 	"github.com/olekukonko/tablewriter"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/ethdb"
-	"github.com/serenite11/op-geth/ethdb/memorydb"
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/ethdb"
+	"github.com/serenite11/go-optimism/ethdb/memorydb"
+	"github.com/serenite11/go-optimism/log"
 )
 
 var ErrDeleteRangeInterrupted = errors.New("safe delete range operation interrupted")

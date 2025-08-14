@@ -19,14 +19,14 @@ package triedb
 import (
 	"errors"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/rawdb"
-	"github.com/serenite11/op-geth/ethdb"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/trie/trienode"
-	"github.com/serenite11/op-geth/triedb/database"
-	"github.com/serenite11/op-geth/triedb/hashdb"
-	"github.com/serenite11/op-geth/triedb/pathdb"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/rawdb"
+	"github.com/serenite11/go-optimism/ethdb"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/trie/trienode"
+	"github.com/serenite11/go-optimism/triedb/database"
+	"github.com/serenite11/go-optimism/triedb/hashdb"
+	"github.com/serenite11/go-optimism/triedb/pathdb"
 )
 
 // Config defines all necessary options for database.

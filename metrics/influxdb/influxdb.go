@@ -3,7 +3,7 @@ package influxdb
 import (
 	"fmt"
 
-	"github.com/serenite11/op-geth/metrics"
+	"github.com/serenite11/go-optimism/metrics"
 )
 
 func readMeter(namespace, name string, i interface{}) (string, map[string]interface{}) {

@@ -19,7 +19,7 @@
 package downloader
 
 import (
-	"github.com/serenite11/op-geth/metrics"
+	"github.com/serenite11/go-optimism/metrics"
 )
 
 var (

@@ -26,10 +26,10 @@ import (
 
 	"github.com/graph-gophers/graphql-go"
 	gqlErrors "github.com/graph-gophers/graphql-go/errors"
-	"github.com/serenite11/op-geth/eth/filters"
-	"github.com/serenite11/op-geth/internal/ethapi"
-	"github.com/serenite11/op-geth/node"
-	"github.com/serenite11/op-geth/rpc"
+	"github.com/serenite11/go-optimism/eth/filters"
+	"github.com/serenite11/go-optimism/internal/ethapi"
+	"github.com/serenite11/go-optimism/node"
+	"github.com/serenite11/go-optimism/rpc"
 )
 
 type handler struct {

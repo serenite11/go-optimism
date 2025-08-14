@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/log"
 )
 
 // measurementImpact is the impact a single measurement has on a peer's final

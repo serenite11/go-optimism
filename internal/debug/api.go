@@ -36,8 +36,8 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-bexpr"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/log"
 )
 
 // Handler is the global debugging handler.

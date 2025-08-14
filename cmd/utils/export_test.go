@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/serenite11/op-geth/core/rawdb"
-	"github.com/serenite11/op-geth/rlp"
+	"github.com/serenite11/go-optimism/core/rawdb"
+	"github.com/serenite11/go-optimism/rlp"
 )
 
 // TestExport does basic sanity checks on the export/import functionality

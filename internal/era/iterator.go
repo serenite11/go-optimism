@@ -21,8 +21,8 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/rlp"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/rlp"
 )
 
 // Iterator wraps RawIterator and returns decoded Era1 entries.

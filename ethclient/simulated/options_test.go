@@ -22,10 +22,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/serenite11/op-geth"
-	"github.com/serenite11/op-geth/core"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/go-optimism"
+	"github.com/serenite11/go-optimism/core"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/params"
 )
 
 // Tests that the simulator starts with the initial gas limit in the genesis block,

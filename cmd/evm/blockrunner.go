@@ -25,9 +25,9 @@ import (
 	"regexp"
 	"slices"
 
-	"github.com/serenite11/op-geth/core"
-	"github.com/serenite11/op-geth/core/rawdb"
-	"github.com/serenite11/op-geth/tests"
+	"github.com/serenite11/go-optimism/core"
+	"github.com/serenite11/go-optimism/core/rawdb"
+	"github.com/serenite11/go-optimism/tests"
 	"github.com/urfave/cli/v2"
 )
 

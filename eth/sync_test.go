@@ -20,11 +20,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/serenite11/op-geth/eth/ethconfig"
-	"github.com/serenite11/op-geth/eth/protocols/eth"
-	"github.com/serenite11/op-geth/eth/protocols/snap"
-	"github.com/serenite11/op-geth/p2p"
-	"github.com/serenite11/op-geth/p2p/enode"
+	"github.com/serenite11/go-optimism/eth/ethconfig"
+	"github.com/serenite11/go-optimism/eth/protocols/eth"
+	"github.com/serenite11/go-optimism/eth/protocols/snap"
+	"github.com/serenite11/go-optimism/p2p"
+	"github.com/serenite11/go-optimism/p2p/enode"
 )
 
 // Tests that snap sync is disabled after a successful sync cycle.

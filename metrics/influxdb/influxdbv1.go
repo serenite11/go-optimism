@@ -6,8 +6,8 @@ import (
 	"time"
 
 	client "github.com/influxdata/influxdb1-client/v2"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/metrics"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/metrics"
 )
 
 type reporter struct {

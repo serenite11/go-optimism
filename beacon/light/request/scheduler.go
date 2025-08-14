@@ -19,7 +19,7 @@ package request
 import (
 	"sync"
 
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/log"
 )
 
 // Module represents a mechanism which is typically responsible for downloading

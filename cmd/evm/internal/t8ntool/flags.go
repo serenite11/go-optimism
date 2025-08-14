@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/serenite11/op-geth/core/vm"
-	"github.com/serenite11/op-geth/tests"
+	"github.com/serenite11/go-optimism/core/vm"
+	"github.com/serenite11/go-optimism/tests"
 	"github.com/urfave/cli/v2"
 )
 

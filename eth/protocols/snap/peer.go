@@ -17,9 +17,9 @@
 package snap
 
 import (
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/p2p"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/p2p"
 )
 
 // Peer is a collection of relevant information we have about a `snap` peer.

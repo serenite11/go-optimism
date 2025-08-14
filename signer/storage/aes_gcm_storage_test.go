@@ -25,8 +25,8 @@ import (
 	"testing"
 
 	"github.com/mattn/go-colorable"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/log"
 )
 
 func TestEncryption(t *testing.T) {

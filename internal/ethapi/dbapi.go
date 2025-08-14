@@ -17,8 +17,8 @@
 package ethapi
 
 import (
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/hexutil"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/hexutil"
 )
 
 // DbGet returns the raw value of a key stored in the database.

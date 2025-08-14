@@ -19,8 +19,8 @@ package simulated
 import (
 	"math/big"
 
-	"github.com/serenite11/op-geth/eth/ethconfig"
-	"github.com/serenite11/op-geth/node"
+	"github.com/serenite11/go-optimism/eth/ethconfig"
+	"github.com/serenite11/go-optimism/node"
 )
 
 // WithBlockGasLimit configures the simulated backend to target a specific gas limit

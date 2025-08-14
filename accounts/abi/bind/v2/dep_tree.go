@@ -22,8 +22,8 @@ import (
 	"maps"
 	"strings"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/types"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/types"
 )
 
 // DeploymentParams contains parameters needed to deploy one or more contracts via LinkAndDeploy

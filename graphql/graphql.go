@@ -27,16 +27,16 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/serenite11/op-geth"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/consensus/misc/eip1559"
-	"github.com/serenite11/op-geth/core/state"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/eth/filters"
-	"github.com/serenite11/op-geth/internal/ethapi"
-	"github.com/serenite11/op-geth/rlp"
-	"github.com/serenite11/op-geth/rpc"
+	"github.com/serenite11/go-optimism"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/consensus/misc/eip1559"
+	"github.com/serenite11/go-optimism/core/state"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/eth/filters"
+	"github.com/serenite11/go-optimism/internal/ethapi"
+	"github.com/serenite11/go-optimism/rlp"
+	"github.com/serenite11/go-optimism/rpc"
 )
 
 var (

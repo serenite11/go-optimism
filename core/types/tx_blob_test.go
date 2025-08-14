@@ -21,9 +21,9 @@ import (
 	"testing"
 
 	"github.com/holiman/uint256"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/crypto/kzg4844"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/crypto/kzg4844"
 )
 
 // This test verifies that tx.Hash() is not affected by presence of a BlobTxSidecar.

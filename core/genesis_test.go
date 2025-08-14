@@ -24,15 +24,15 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/consensus/ethash"
-	"github.com/serenite11/op-geth/core/rawdb"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/core/vm"
-	"github.com/serenite11/op-geth/ethdb"
-	"github.com/serenite11/op-geth/params"
-	"github.com/serenite11/op-geth/triedb"
-	"github.com/serenite11/op-geth/triedb/pathdb"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/consensus/ethash"
+	"github.com/serenite11/go-optimism/core/rawdb"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/core/vm"
+	"github.com/serenite11/go-optimism/ethdb"
+	"github.com/serenite11/go-optimism/params"
+	"github.com/serenite11/go-optimism/triedb"
+	"github.com/serenite11/go-optimism/triedb/pathdb"
 )
 
 func TestSetupGenesis(t *testing.T) {

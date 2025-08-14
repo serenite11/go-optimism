@@ -20,11 +20,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/eth"
-	"github.com/serenite11/op-geth/eth/ethconfig"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/node"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/eth"
+	"github.com/serenite11/go-optimism/eth/ethconfig"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/node"
 )
 
 // FullSyncTester is an auxiliary service that allows Geth to perform full sync

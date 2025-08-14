@@ -19,7 +19,7 @@ package p2p
 import (
 	"container/heap"
 
-	"github.com/serenite11/op-geth/common/mclock"
+	"github.com/serenite11/go-optimism/common/mclock"
 )
 
 // expHeap tracks strings and their expiry time.

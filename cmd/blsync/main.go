@@ -22,13 +22,13 @@ import (
 	"os"
 	"slices"
 
-	"github.com/serenite11/op-geth/beacon/blsync"
-	"github.com/serenite11/op-geth/cmd/utils"
-	"github.com/serenite11/op-geth/internal/debug"
-	"github.com/serenite11/op-geth/internal/flags"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/node"
-	"github.com/serenite11/op-geth/rpc"
+	"github.com/serenite11/go-optimism/beacon/blsync"
+	"github.com/serenite11/go-optimism/cmd/utils"
+	"github.com/serenite11/go-optimism/internal/debug"
+	"github.com/serenite11/go-optimism/internal/flags"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/node"
+	"github.com/serenite11/go-optimism/rpc"
 	"github.com/urfave/cli/v2"
 )
 

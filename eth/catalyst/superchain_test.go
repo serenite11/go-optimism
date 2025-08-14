@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/serenite11/op-geth/eth/ethconfig"
-	"github.com/serenite11/op-geth/node"
-	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/go-optimism/eth/ethconfig"
+	"github.com/serenite11/go-optimism/node"
+	"github.com/serenite11/go-optimism/params"
 )
 
 func TestSignalSuperchainV1(t *testing.T) {

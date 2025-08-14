@@ -27,7 +27,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/serenite11/op-geth/common/math"
+	"github.com/serenite11/go-optimism/common/math"
 	"github.com/urfave/cli/v2"
 )
 

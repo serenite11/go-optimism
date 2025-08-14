@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/serenite11/op-geth/metrics"
+	"github.com/serenite11/go-optimism/metrics"
 )
 
 func TestCollectRuntimeMetrics(t *testing.T) {

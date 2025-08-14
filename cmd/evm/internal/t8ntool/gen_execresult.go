@@ -6,10 +6,10 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/common/math"
-	"github.com/serenite11/op-geth/core/types"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/common/math"
+	"github.com/serenite11/go-optimism/core/types"
 )
 
 var _ = (*executionResultMarshaling)(nil)

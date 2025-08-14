@@ -23,8 +23,8 @@ import (
 	"github.com/crate-crypto/go-ipa/bandersnatch/fr"
 	"github.com/ethereum/go-verkle"
 	"github.com/holiman/uint256"
-	"github.com/serenite11/op-geth/common/lru"
-	"github.com/serenite11/op-geth/metrics"
+	"github.com/serenite11/go-optimism/common/lru"
+	"github.com/serenite11/go-optimism/metrics"
 )
 
 const (

@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/console/prompt"
-	"github.com/serenite11/op-geth/core"
-	"github.com/serenite11/op-geth/eth"
-	"github.com/serenite11/op-geth/eth/ethconfig"
-	"github.com/serenite11/op-geth/internal/jsre"
-	"github.com/serenite11/op-geth/miner"
-	"github.com/serenite11/op-geth/node"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/console/prompt"
+	"github.com/serenite11/go-optimism/core"
+	"github.com/serenite11/go-optimism/eth"
+	"github.com/serenite11/go-optimism/eth/ethconfig"
+	"github.com/serenite11/go-optimism/internal/jsre"
+	"github.com/serenite11/go-optimism/miner"
+	"github.com/serenite11/go-optimism/node"
 )
 
 const (

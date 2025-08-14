@@ -28,9 +28,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/serenite11/op-geth/cmd/evm/internal/t8ntool"
-	"github.com/serenite11/op-geth/internal/cmdtest"
-	"github.com/serenite11/op-geth/internal/reexec"
+	"github.com/serenite11/go-optimism/cmd/evm/internal/t8ntool"
+	"github.com/serenite11/go-optimism/internal/cmdtest"
+	"github.com/serenite11/go-optimism/internal/reexec"
 )
 
 func TestMain(m *testing.M) {

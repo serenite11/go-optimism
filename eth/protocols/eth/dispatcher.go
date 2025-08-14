@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/serenite11/op-geth/p2p"
+	"github.com/serenite11/go-optimism/p2p"
 )
 
 var (

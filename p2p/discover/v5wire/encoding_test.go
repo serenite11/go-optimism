@@ -31,10 +31,10 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/common/mclock"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/p2p/enode"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/common/mclock"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/p2p/enode"
 )
 
 // To regenerate discv5 test vectors, run

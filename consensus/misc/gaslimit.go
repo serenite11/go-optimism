@@ -19,7 +19,7 @@ package misc
 import (
 	"fmt"
 
-	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/go-optimism/params"
 )
 
 // VerifyGaslimit verifies the header gas limit according increase/decrease

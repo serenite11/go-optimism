@@ -20,7 +20,7 @@ import (
 	"math/bits"
 	"testing"
 
-	"github.com/serenite11/op-geth/crypto"
+	"github.com/serenite11/go-optimism/crypto"
 )
 
 func TestJumpDestAnalysis(t *testing.T) {

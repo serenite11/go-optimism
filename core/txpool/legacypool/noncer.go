@@ -19,8 +19,8 @@ package legacypool
 import (
 	"sync"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/state"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/state"
 )
 
 // noncer is a tiny virtual state database to manage the executable nonces of

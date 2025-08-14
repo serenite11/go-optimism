@@ -22,8 +22,8 @@ import (
 	"slices"
 	"time"
 
-	"github.com/serenite11/op-geth/common/mclock"
-	"github.com/serenite11/op-geth/p2p/enode"
+	"github.com/serenite11/go-optimism/common/mclock"
+	"github.com/serenite11/go-optimism/p2p/enode"
 )
 
 const never = mclock.AbsTime(math.MaxInt64)

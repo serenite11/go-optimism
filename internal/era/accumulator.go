@@ -22,7 +22,7 @@ import (
 	"math/big"
 
 	ssz "github.com/ferranbt/fastssz"
-	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/go-optimism/common"
 )
 
 // ComputeAccumulator calculates the SSZ hash tree root of the Era1

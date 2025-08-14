@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/serenite11/op-geth/accounts/abi"
-	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/go-optimism/accounts/abi"
+	"github.com/serenite11/go-optimism/common"
 )
 
 // decodedCallData is an internal type to represent a method call parsed according

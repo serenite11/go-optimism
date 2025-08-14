@@ -29,7 +29,7 @@ import (
 	"testing"
 
 	"github.com/holiman/uint256"
-	"github.com/serenite11/op-geth/common/math"
+	"github.com/serenite11/go-optimism/common/math"
 )
 
 func TestStreamKind(t *testing.T) {

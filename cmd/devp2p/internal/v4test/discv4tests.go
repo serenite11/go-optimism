@@ -24,9 +24,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/internal/utesting"
-	"github.com/serenite11/op-geth/p2p/discover/v4wire"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/internal/utesting"
+	"github.com/serenite11/go-optimism/p2p/discover/v4wire"
 )
 
 const (

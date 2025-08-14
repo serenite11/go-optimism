@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/go-optimism/common"
 )
 
 func TestTransactionConditionalCost(t *testing.T) {

@@ -43,7 +43,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/serenite11/op-geth/crypto"
+	ethcrypto "github.com/serenite11/go-optimism/crypto"
 )
 
 var (

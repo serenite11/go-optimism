@@ -29,10 +29,10 @@ import (
 
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
-	"github.com/serenite11/op-geth/internal/flags"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/metrics"
-	"github.com/serenite11/op-geth/metrics/exp"
+	"github.com/serenite11/go-optimism/internal/flags"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/metrics"
+	"github.com/serenite11/go-optimism/metrics/exp"
 	"github.com/urfave/cli/v2"
 	"gopkg.in/natefinch/lumberjack.v2"
 )

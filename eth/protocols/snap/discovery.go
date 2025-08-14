@@ -17,7 +17,7 @@
 package snap
 
 import (
-	"github.com/serenite11/op-geth/rlp"
+	"github.com/serenite11/go-optimism/rlp"
 )
 
 // enrEntry is the ENR entry which advertises `snap` protocol on the discovery.

@@ -32,12 +32,12 @@ import (
 	"github.com/dop251/goja"
 	"github.com/mattn/go-colorable"
 	"github.com/peterh/liner"
-	"github.com/serenite11/op-geth/console/prompt"
-	"github.com/serenite11/op-geth/internal/jsre"
-	"github.com/serenite11/op-geth/internal/jsre/deps"
-	"github.com/serenite11/op-geth/internal/web3ext"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/rpc"
+	"github.com/serenite11/go-optimism/console/prompt"
+	"github.com/serenite11/go-optimism/internal/jsre"
+	"github.com/serenite11/go-optimism/internal/jsre/deps"
+	"github.com/serenite11/go-optimism/internal/web3ext"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/rpc"
 )
 
 var (

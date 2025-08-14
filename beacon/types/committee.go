@@ -23,9 +23,9 @@ import (
 	"math/bits"
 
 	bls "github.com/protolambda/bls12-381-util"
-	"github.com/serenite11/op-geth/beacon/params"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/hexutil"
+	"github.com/serenite11/go-optimism/beacon/params"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/hexutil"
 )
 
 // SerializedSyncCommitteeSize is the size of the sync committee plus the

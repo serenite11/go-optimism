@@ -22,8 +22,8 @@ import (
 	"slices"
 	"sync"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/types"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/types"
 )
 
 // HeaderReader is an interface to pull in headers in place of block hashes for

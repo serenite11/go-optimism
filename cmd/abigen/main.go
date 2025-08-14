@@ -24,12 +24,12 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/serenite11/op-geth/accounts/abi/abigen"
-	"github.com/serenite11/op-geth/cmd/utils"
-	"github.com/serenite11/op-geth/common/compiler"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/internal/flags"
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/accounts/abi/abigen"
+	"github.com/serenite11/go-optimism/cmd/utils"
+	"github.com/serenite11/go-optimism/common/compiler"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/internal/flags"
+	"github.com/serenite11/go-optimism/log"
 	"github.com/urfave/cli/v2"
 )
 

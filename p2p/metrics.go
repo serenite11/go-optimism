@@ -22,7 +22,7 @@ import (
 	"errors"
 	"net"
 
-	"github.com/serenite11/op-geth/metrics"
+	"github.com/serenite11/go-optimism/metrics"
 )
 
 const (

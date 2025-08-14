@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/serenite11/op-geth/core/types"
+	"github.com/serenite11/go-optimism/core/types"
 )
 
 // TestTransactionRollbackBehavior tests that calling Rollback on the simulated backend doesn't prevent subsequent

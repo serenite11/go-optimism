@@ -20,9 +20,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/internal/ethapi/override"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/internal/ethapi/override"
 )
 
 func TestSimulateSanitizeBlockOrder(t *testing.T) {

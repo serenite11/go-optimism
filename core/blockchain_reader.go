@@ -19,17 +19,17 @@ package core
 import (
 	"errors"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/consensus"
-	"github.com/serenite11/op-geth/core/rawdb"
-	"github.com/serenite11/op-geth/core/state"
-	"github.com/serenite11/op-geth/core/state/snapshot"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/core/vm"
-	"github.com/serenite11/op-geth/event"
-	"github.com/serenite11/op-geth/params"
-	"github.com/serenite11/op-geth/rlp"
-	"github.com/serenite11/op-geth/triedb"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/consensus"
+	"github.com/serenite11/go-optimism/core/rawdb"
+	"github.com/serenite11/go-optimism/core/state"
+	"github.com/serenite11/go-optimism/core/state/snapshot"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/core/vm"
+	"github.com/serenite11/go-optimism/event"
+	"github.com/serenite11/go-optimism/params"
+	"github.com/serenite11/go-optimism/rlp"
+	"github.com/serenite11/go-optimism/triedb"
 )
 
 // CurrentHeader retrieves the current head header of the canonical chain. The

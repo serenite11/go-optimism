@@ -16,7 +16,7 @@
 
 package trie
 
-import "github.com/serenite11/op-geth/common"
+import "github.com/serenite11/go-optimism/common"
 
 // ID is the identifier for uniquely identifying a trie.
 type ID struct {

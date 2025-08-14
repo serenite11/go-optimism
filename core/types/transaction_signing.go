@@ -23,10 +23,10 @@ import (
 	"maps"
 	"math/big"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/params"
-	"github.com/serenite11/op-geth/params/forks"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/params"
+	"github.com/serenite11/go-optimism/params/forks"
 )
 
 var ErrInvalidChainId = errors.New("invalid chain id for signer")

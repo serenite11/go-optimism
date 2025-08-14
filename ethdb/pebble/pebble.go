@@ -27,10 +27,10 @@ import (
 
 	"github.com/cockroachdb/pebble"
 	"github.com/cockroachdb/pebble/bloom"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/ethdb"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/metrics"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/ethdb"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/metrics"
 )
 
 const (
@@ -229,7 +229,7 @@ func New(file string, cache int, handles int, namespace string, readonly bool, e
 		},
 		Logger: panicLogger{}, // TODO(karalabe): Delete when this is upstreamed in Pebble
 	}
-	// Disable seek compaction explicitly. Check https://github.com/serenite11/op-geth/pull/20130
+	// Disable seek compaction explicitly. Check https://github.com/serenite11/go-optimism/pull/20130
 	// for more details.
 	opt.Experimental.ReadSamplingMultiplier = -1
 

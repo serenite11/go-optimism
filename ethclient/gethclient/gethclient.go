@@ -25,12 +25,12 @@ import (
 	"runtime"
 	"runtime/debug"
 
-	"github.com/serenite11/op-geth"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/p2p"
-	"github.com/serenite11/op-geth/rpc"
+	"github.com/serenite11/go-optimism"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/p2p"
+	"github.com/serenite11/go-optimism/rpc"
 )
 
 // Client is a wrapper around rpc.Client that implements geth-specific functionality.

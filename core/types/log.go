@@ -17,8 +17,8 @@
 package types
 
 import (
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/hexutil"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/hexutil"
 )
 
 //go:generate go run ../../rlp/rlpgen -type Log -out gen_log_rlp.go

@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/serenite11/op-geth/rpc"
+	"github.com/serenite11/go-optimism/rpc"
 )
 
 func TestFeeHistory(t *testing.T) {

@@ -22,8 +22,8 @@ import (
 	"testing"
 
 	"github.com/holiman/uint256"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/vm"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/vm"
 )
 
 func TestPush(t *testing.T) {

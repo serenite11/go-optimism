@@ -23,11 +23,11 @@ import (
 	"slices"
 	"sync"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/rawdb"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/metrics"
-	"github.com/serenite11/op-geth/rlp"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/rawdb"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/metrics"
+	"github.com/serenite11/go-optimism/rlp"
 )
 
 // counter helps in tracking items and their corresponding sizes.

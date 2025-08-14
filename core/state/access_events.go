@@ -20,10 +20,10 @@ import (
 	"maps"
 
 	"github.com/holiman/uint256"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/math"
-	"github.com/serenite11/op-geth/params"
-	"github.com/serenite11/op-geth/trie/utils"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/math"
+	"github.com/serenite11/go-optimism/params"
+	"github.com/serenite11/go-optimism/trie/utils"
 )
 
 // mode specifies how a tree location has been accessed

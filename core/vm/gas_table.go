@@ -20,9 +20,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/math"
-	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/math"
+	"github.com/serenite11/go-optimism/params"
 )
 
 // memoryGasCost calculates the quadratic gas for memory expansion. It does so

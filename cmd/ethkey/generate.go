@@ -23,9 +23,9 @@ import (
 	"path/filepath"
 
 	"github.com/google/uuid"
-	"github.com/serenite11/op-geth/accounts/keystore"
-	"github.com/serenite11/op-geth/cmd/utils"
-	"github.com/serenite11/op-geth/crypto"
+	"github.com/serenite11/go-optimism/accounts/keystore"
+	"github.com/serenite11/go-optimism/cmd/utils"
+	"github.com/serenite11/go-optimism/crypto"
 	"github.com/urfave/cli/v2"
 )
 

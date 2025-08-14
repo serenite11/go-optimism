@@ -24,7 +24,7 @@ import (
 	"time"
 
 	"github.com/fsnotify/fsnotify"
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/log"
 )
 
 type watcher struct {

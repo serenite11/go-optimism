@@ -29,9 +29,9 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/math"
-	"github.com/serenite11/op-geth/rlp"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/math"
+	"github.com/serenite11/go-optimism/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

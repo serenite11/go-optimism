@@ -24,8 +24,8 @@ import (
 	"strings"
 
 	"github.com/mattn/go-isatty"
-	"github.com/serenite11/op-geth/internal/version"
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/internal/version"
+	"github.com/serenite11/go-optimism/log"
 	"github.com/urfave/cli/v2"
 )
 

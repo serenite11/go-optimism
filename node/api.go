@@ -21,14 +21,14 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/crypto"
-	"github.com/serenite11/op-geth/internal/debug"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/p2p"
-	"github.com/serenite11/op-geth/p2p/discover"
-	"github.com/serenite11/op-geth/p2p/enode"
-	"github.com/serenite11/op-geth/rpc"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/crypto"
+	"github.com/serenite11/go-optimism/internal/debug"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/p2p"
+	"github.com/serenite11/go-optimism/p2p/discover"
+	"github.com/serenite11/go-optimism/p2p/enode"
+	"github.com/serenite11/go-optimism/rpc"
 )
 
 // apis returns the collection of built-in RPC APIs.

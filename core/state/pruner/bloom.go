@@ -22,9 +22,9 @@ import (
 	"os"
 
 	bloomfilter "github.com/holiman/bloomfilter/v2"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/rawdb"
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/rawdb"
+	"github.com/serenite11/go-optimism/log"
 )
 
 // stateBloomHash is used to convert a trie hash or contract code hash into a 64 bit mini hash.

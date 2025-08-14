@@ -19,8 +19,8 @@ package history
 import (
 	"fmt"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/params"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/params"
 )
 
 // HistoryMode configures history pruning.

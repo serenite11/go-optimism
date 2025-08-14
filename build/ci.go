@@ -57,9 +57,9 @@ import (
 	"time"
 
 	"github.com/cespare/cp"
-	"github.com/serenite11/op-geth/crypto/signify"
-	"github.com/serenite11/op-geth/internal/build"
-	"github.com/serenite11/op-geth/internal/version"
+	"github.com/serenite11/go-optimism/crypto/signify"
+	"github.com/serenite11/go-optimism/internal/build"
+	"github.com/serenite11/go-optimism/internal/version"
 )
 
 var (
@@ -234,11 +234,11 @@ func buildFlags(env build.Environment, staticLinking bool, buildTags []string) (
 	// cgo-linker further down.
 	ld = append(ld, "--buildid=none")
 	if env.Commit != "" {
-		ld = append(ld, "-X", "github.com/serenite11/op-geth/internal/version.gitCommit="+env.Commit)
-		ld = append(ld, "-X", "github.com/serenite11/op-geth/internal/version.gitDate="+env.Date)
+		ld = append(ld, "-X", "github.com/serenite11/go-optimism/internal/version.gitCommit="+env.Commit)
+		ld = append(ld, "-X", "github.com/serenite11/go-optimism/internal/version.gitDate="+env.Date)
 	}
 	if env.Tag != "" {
-		ld = append(ld, "-X", "github.com/serenite11/op-geth/version.gitTag="+env.Tag)
+		ld = append(ld, "-X", "github.com/serenite11/go-optimism/version.gitTag="+env.Tag)
 	}
 	// Strip DWARF on darwin. This used to be required for certain things,
 	// and there is no downside to this, so we just keep doing it.
@@ -404,8 +404,8 @@ func doCheckGenerate() {
 func doCheckBadDeps() {
 	baddeps := [][2]string{
 		// Rawdb tends to be a dumping ground for db utils, sometimes leaking the db itself
-		{"github.com/serenite11/op-geth/core/rawdb", "github.com/serenite11/op-geth/ethdb/leveldb"},
-		{"github.com/serenite11/op-geth/core/rawdb", "github.com/serenite11/op-geth/ethdb/pebbledb"},
+		{"github.com/serenite11/go-optimism/core/rawdb", "github.com/serenite11/go-optimism/ethdb/leveldb"},
+		{"github.com/serenite11/go-optimism/core/rawdb", "github.com/serenite11/go-optimism/ethdb/pebbledb"},
 	}
 	tc := new(build.GoToolchain)
 

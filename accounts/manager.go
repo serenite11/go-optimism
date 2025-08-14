@@ -21,8 +21,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/event"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/event"
 )
 
 // managerSubBufferSize determines how many incoming wallet events

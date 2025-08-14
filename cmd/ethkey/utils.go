@@ -22,7 +22,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/serenite11/op-geth/cmd/utils"
+	"github.com/serenite11/go-optimism/cmd/utils"
 	"github.com/urfave/cli/v2"
 )
 

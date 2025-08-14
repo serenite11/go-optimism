@@ -5,7 +5,7 @@ import (
 	"path"
 
 	"github.com/naoina/toml"
-	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/go-optimism/common"
 )
 
 type Superchain struct {

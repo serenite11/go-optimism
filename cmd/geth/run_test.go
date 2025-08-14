@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/serenite11/op-geth/internal/cmdtest"
-	"github.com/serenite11/op-geth/internal/reexec"
-	"github.com/serenite11/op-geth/rpc"
+	"github.com/serenite11/go-optimism/internal/cmdtest"
+	"github.com/serenite11/go-optimism/internal/reexec"
+	"github.com/serenite11/go-optimism/rpc"
 )
 
 type testgeth struct {

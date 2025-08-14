@@ -19,8 +19,8 @@ package runtime_test
 import (
 	"fmt"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/vm/runtime"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/vm/runtime"
 )
 
 func ExampleExecute() {

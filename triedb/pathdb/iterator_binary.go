@@ -19,7 +19,7 @@ package pathdb
 import (
 	"bytes"
 
-	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/go-optimism/common"
 )
 
 // binaryIterator is a simplistic iterator to step over the accounts or storage

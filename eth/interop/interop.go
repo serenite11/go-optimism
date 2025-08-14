@@ -5,9 +5,9 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/core/types/interoptypes"
-	"github.com/serenite11/op-geth/rpc"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/core/types/interoptypes"
+	"github.com/serenite11/go-optimism/rpc"
 )
 
 type InteropClient struct {

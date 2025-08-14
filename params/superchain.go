@@ -6,8 +6,8 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/superchain"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/superchain"
 )
 
 var OPStackSupport = ProtocolVersionV0{Build: [8]byte{}, Major: 9, Minor: 0, Patch: 0, PreRelease: 0}.Encode()

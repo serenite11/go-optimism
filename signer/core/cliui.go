@@ -25,10 +25,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/console/prompt"
-	"github.com/serenite11/op-geth/internal/ethapi"
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/console/prompt"
+	"github.com/serenite11/go-optimism/internal/ethapi"
+	"github.com/serenite11/go-optimism/log"
 )
 
 type CommandlineUI struct {

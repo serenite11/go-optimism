@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/eth/protocols/eth"
-	"github.com/serenite11/op-geth/eth/protocols/snap"
-	"github.com/serenite11/op-geth/p2p"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/eth/protocols/eth"
+	"github.com/serenite11/go-optimism/eth/protocols/snap"
+	"github.com/serenite11/go-optimism/p2p"
 )
 
 var (

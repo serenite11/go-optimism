@@ -23,8 +23,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/serenite11/op-geth/signer/core/apitypes"
-	"github.com/serenite11/op-geth/signer/fourbyte"
+	"github.com/serenite11/go-optimism/signer/core/apitypes"
+	"github.com/serenite11/go-optimism/signer/fourbyte"
 )
 
 func init() {

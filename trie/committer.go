@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/trie/trienode"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/trie/trienode"
 )
 
 // committer is the tool used for the trie Commit operation. The committer will

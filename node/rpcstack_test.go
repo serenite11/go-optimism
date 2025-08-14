@@ -30,9 +30,9 @@ import (
 
 	"github.com/golang-jwt/jwt/v4"
 	"github.com/gorilla/websocket"
-	"github.com/serenite11/op-geth/internal/testlog"
-	"github.com/serenite11/op-geth/log"
-	"github.com/serenite11/op-geth/rpc"
+	"github.com/serenite11/go-optimism/internal/testlog"
+	"github.com/serenite11/go-optimism/log"
+	"github.com/serenite11/go-optimism/rpc"
 	"github.com/stretchr/testify/assert"
 )
 

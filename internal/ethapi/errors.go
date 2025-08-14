@@ -20,10 +20,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/serenite11/op-geth/accounts/abi"
-	"github.com/serenite11/op-geth/common/hexutil"
-	"github.com/serenite11/op-geth/core"
-	"github.com/serenite11/op-geth/core/vm"
+	"github.com/serenite11/go-optimism/accounts/abi"
+	"github.com/serenite11/go-optimism/common/hexutil"
+	"github.com/serenite11/go-optimism/core"
+	"github.com/serenite11/go-optimism/core/vm"
 )
 
 // revertError is an API error that encompasses an EVM revert with JSON error

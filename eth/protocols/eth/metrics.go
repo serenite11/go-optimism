@@ -16,7 +16,7 @@
 
 package eth
 
-import "github.com/serenite11/op-geth/metrics"
+import "github.com/serenite11/go-optimism/metrics"
 
 // meters stores ingress and egress handshake meters.
 var meters bidirectionalMeters

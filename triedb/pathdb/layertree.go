@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/trie/trienode"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/trie/trienode"
 )
 
 // layerTree is a group of state layers identified by the state root.

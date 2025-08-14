@@ -17,9 +17,9 @@
 package eth
 
 import (
-	"github.com/serenite11/op-geth/core"
-	"github.com/serenite11/op-geth/eth/protocols/snap"
-	"github.com/serenite11/op-geth/p2p/enode"
+	"github.com/serenite11/go-optimism/core"
+	"github.com/serenite11/go-optimism/eth/protocols/snap"
+	"github.com/serenite11/go-optimism/p2p/enode"
 )
 
 // snapHandler implements the snap.Backend interface to handle the various network

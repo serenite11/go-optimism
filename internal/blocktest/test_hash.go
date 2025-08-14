@@ -25,7 +25,7 @@ package blocktest
 import (
 	"hash"
 
-	"github.com/serenite11/op-geth/common"
+	"github.com/serenite11/go-optimism/common"
 	"golang.org/x/crypto/sha3"
 )
 

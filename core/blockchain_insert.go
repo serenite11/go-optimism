@@ -19,10 +19,10 @@ package core
 import (
 	"time"
 
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/common/mclock"
-	"github.com/serenite11/op-geth/core/types"
-	"github.com/serenite11/op-geth/log"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/common/mclock"
+	"github.com/serenite11/go-optimism/core/types"
+	"github.com/serenite11/go-optimism/log"
 )
 
 // insertStats tracks and reports on block insertion.

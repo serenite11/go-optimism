@@ -25,11 +25,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/serenite11/op-geth/accounts/keystore"
-	"github.com/serenite11/op-geth/common"
-	"github.com/serenite11/op-geth/console/prompt"
-	"github.com/serenite11/op-geth/p2p/dnsdisc"
-	"github.com/serenite11/op-geth/p2p/enode"
+	"github.com/serenite11/go-optimism/accounts/keystore"
+	"github.com/serenite11/go-optimism/common"
+	"github.com/serenite11/go-optimism/console/prompt"
+	"github.com/serenite11/go-optimism/p2p/dnsdisc"
+	"github.com/serenite11/go-optimism/p2p/enode"
 	"github.com/urfave/cli/v2"
 )
 

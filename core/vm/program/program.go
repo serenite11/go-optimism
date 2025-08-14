@@ -27,7 +27,7 @@ import (
 	"math/big"
 
 	"github.com/holiman/uint256"
-	"github.com/serenite11/op-geth/core/vm"
+	"github.com/serenite11/go-optimism/core/vm"
 )
 
 // Program is a simple bytecode container. It can be used to construct

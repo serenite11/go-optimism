@@ -22,7 +22,7 @@ import (
 	metrics2 "runtime/metrics"
 	"time"
 
-	"github.com/serenite11/op-geth/metrics"
+	"github.com/serenite11/go-optimism/metrics"
 )
 
 // ExampleMetrics returns an ordered registry populated with a sample of metrics.
